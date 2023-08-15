@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_mydiffbot.dir/hardware/diffbot_system.cpp.o[0m
+[01m[K/home/lulav/ros2_ws/src/mydiffbot/hardware/diffbot_system.cpp:15:10:[m[K [01;31m[Kfatal error: [m[K/include/include/ros2_control_demo_mydiffbot/diffbot_system.hpp: No such file or directory
+   15 | #include [01;31m[K"/include/include/ros2_control_demo_mydiffbot/diffbot_system.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros2_control_demo_mydiffbot.dir/build.make:76: CMakeFiles/ros2_control_demo_mydiffbot.dir/hardware/diffbot_system.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ros2_control_demo_mydiffbot.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,44 @@
+[2.008s] Invoking command in '/home/lulav/ros2_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build
+[2.660s] running develop
+[2.661s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.662s]   warnings.warn(
+[2.665s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.666s]   warnings.warn(
+[3.165s] Removing /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[3.226s] Invoked command in '/home/lulav/ros2_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build
+[3.227s] Invoking command in '/home/lulav/ros2_ws/src/ros2_controllers/ros2_controllers_test_nodes': PYTHONPATH=/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build install --record /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed
+[3.833s] running egg_info
+[3.835s] writing ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[3.836s] writing dependency_links to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[3.837s] writing entry points to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[3.837s] writing requirements to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[3.838s] writing top-level names to ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[3.843s] reading manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.845s] writing manifest file '../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.846s] running build
+[3.846s] running build_py
+[3.847s] creating /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build
+[3.847s] creating /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib
+[3.848s] creating /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.848s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.849s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.849s] copying ros2_controllers_test_nodes/__init__.py -> /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[3.850s] running install
+[3.851s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.851s]   warnings.warn(
+[3.851s] running install_lib
+[3.855s] creating /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[3.856s] copying /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[3.856s] copying /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[3.856s] copying /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes
+[3.857s] byte-compiling /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-310.pyc
+[3.862s] byte-compiling /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-310.pyc
+[3.864s] byte-compiling /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-310.pyc
+[3.864s] running install_data
+[3.866s] running install_egg_info
+[3.870s] Copying ../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2_controllers_test_nodes-2.24.0-py3.10.egg-info
+[3.873s] running install_scripts
+[3.950s] Installing publisher_forward_position_controller script to /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.951s] Installing publisher_joint_trajectory_controller script to /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.953s] writing list of installed files to '/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/install.log'
+[4.016s] Invoked command in '/home/lulav/ros2_ws/src/ros2_controllers/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_controllers_test_nodes build --build-base /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build install --record /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed

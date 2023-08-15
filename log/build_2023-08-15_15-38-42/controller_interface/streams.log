@@ -1,0 +1,44 @@
+[0.022s] Invoking command in '/home/lulav/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_interface -- -j8 -l8
+[0.155s] [  9%] Built target gmock_main
+[0.162s] [ 28%] Built target controller_interface
+[0.188s] [ 42%] Built target gmock
+[0.292s] [ 52%] Built target test_controller_interface
+[0.331s] [ 61%] Built target test_chainable_controller_interface
+[0.346s] [ 71%] Built target test_force_torque_sensor
+[0.354s] [ 80%] Built target test_controller_with_options
+[0.365s] [100%] Built target test_semantic_component_interface
+[0.367s] [100%] Built target test_imu_sensor
+[0.405s] Invoked command in '/home/lulav/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_interface -- -j8 -l8
+[0.550s] Invoking command in '/home/lulav/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_interface
+[0.569s] -- Install configuration: ""
+[0.570s] -- Execute custom install script
+[0.573s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp
+[0.573s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[0.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp
+[0.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/helpers.hpp
+[0.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[0.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[0.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[0.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[0.579s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/lib/libcontroller_interface.so
+[0.579s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[0.579s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[0.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[0.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[0.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[0.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[0.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[0.581s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[0.581s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[0.581s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[0.581s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[0.582s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[0.582s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/package.dsv
+[0.601s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[0.602s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.602s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.603s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.604s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[0.604s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[0.605s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/package.xml
+[0.614s] Invoked command in '/home/lulav/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_interface

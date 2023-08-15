@@ -1,0 +1,21 @@
+[1.588s] Invoking command in '/home/lulav/ros2_ws/build/rqt_controller_manager': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_controller_manager/prefix_override:/home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lulav/ros2_ws/build/rqt_controller_manager/build --no-deps install_data
+[2.274s] running develop
+[2.274s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.275s]   warnings.warn(
+[2.278s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.278s]   warnings.warn(
+[2.728s] running egg_info
+[2.729s] writing rqt_controller_manager.egg-info/PKG-INFO
+[2.729s] writing dependency_links to rqt_controller_manager.egg-info/dependency_links.txt
+[2.729s] writing entry points to rqt_controller_manager.egg-info/entry_points.txt
+[2.729s] writing requirements to rqt_controller_manager.egg-info/requires.txt
+[2.729s] writing top-level names to rqt_controller_manager.egg-info/top_level.txt
+[2.729s] reading manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+[2.730s] writing manifest file 'rqt_controller_manager.egg-info/SOURCES.txt'
+[2.737s] running build_ext
+[2.737s] Creating /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt-controller-manager.egg-link (link to .)
+[2.737s] Installing rqt_controller_manager script to /home/lulav/ros2_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+[2.738s] 
+[2.738s] Installed /home/lulav/ros2_ws/build/rqt_controller_manager
+[2.738s] running install_data
+[2.801s] Invoked command in '/home/lulav/ros2_ws/build/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_controller_manager/prefix_override:/home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lulav/ros2_ws/build/rqt_controller_manager/build --no-deps install_data

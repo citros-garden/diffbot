@@ -1,0 +1,77 @@
+[0.072s] Invoking command in '/home/lulav/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lulav/ros2_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/realtime_tools
+[0.125s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.511s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[0.763s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.776s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.795s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.867s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.932s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.152s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.157s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.956s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.243s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.245s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[2.465s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.475s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.477s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.701s] -- Configuring done
+[2.811s] -- Generating done
+[2.819s] -- Build files have been written to: /home/lulav/ros2_ws/build/realtime_tools
+[2.844s] Invoked command in '/home/lulav/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lulav/ros2_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/realtime_tools
+[2.845s] Invoking command in '/home/lulav/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/realtime_tools -- -j8 -l8
+[2.952s] [35m[1mConsolidate compiler generated dependencies of target realtime_tools[0m
+[3.003s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[3.017s] [35m[1mConsolidate compiler generated dependencies of target thread_priority[0m
+[3.023s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[3.028s] [  9%] Built target realtime_tools
+[3.066s] [ 19%] Built target gmock_main
+[3.067s] [ 33%] Built target gmock
+[3.068s] [ 42%] Built target thread_priority
+[3.092s] [35m[1mConsolidate compiler generated dependencies of target realtime_box_tests[0m
+[3.092s] [35m[1mConsolidate compiler generated dependencies of target realtime_buffer_tests[0m
+[3.095s] [35m[1mConsolidate compiler generated dependencies of target realtime_publisher_tests[0m
+[3.113s] [35m[1mConsolidate compiler generated dependencies of target realtime_publisher_tests_non_polling[0m
+[3.114s] [35m[1mConsolidate compiler generated dependencies of target realtime_clock_tests[0m
+[3.127s] [35m[1mConsolidate compiler generated dependencies of target realtime_server_goal_handle_tests[0m
+[3.182s] [ 52%] Built target realtime_publisher_tests
+[3.201s] [ 61%] Built target realtime_buffer_tests
+[3.202s] [ 71%] Built target realtime_box_tests
+[3.202s] [ 80%] Built target realtime_clock_tests
+[3.220s] [ 95%] Built target realtime_server_goal_handle_tests
+[3.220s] [100%] Built target realtime_publisher_tests_non_polling
+[3.247s] Invoked command in '/home/lulav/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/realtime_tools -- -j8 -l8
+[3.372s] Invoking command in '/home/lulav/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/realtime_tools
+[3.390s] -- Install configuration: ""
+[3.391s] -- Execute custom install script
+[3.392s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[3.393s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[3.393s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[3.393s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[3.393s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[3.393s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[3.394s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[3.394s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[3.395s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[3.395s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[3.396s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[3.397s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[3.397s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[3.397s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[3.397s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[3.398s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[3.398s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[3.399s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[3.399s] -- Symlinking: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[3.420s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[3.421s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[3.421s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.421s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[3.422s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[3.422s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/package.xml
+[3.423s] -- Up-to-date: /home/lulav/ros2_ws/install/realtime_tools/lib/librealtime_tools.so
+[3.424s] -- Up-to-date: /home/lulav/ros2_ws/install/realtime_tools/lib/libthread_priority.so
+[3.424s] -- Up-to-date: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[3.424s] -- Up-to-date: /home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake
+[3.435s] Invoked command in '/home/lulav/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/realtime_tools

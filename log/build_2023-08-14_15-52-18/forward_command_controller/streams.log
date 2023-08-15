@@ -1,0 +1,119 @@
+[0.097s] Invoking command in '/home/lulav/ros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/forward_command_controller
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.278s] -- Detecting CXX compiler ABI info
+[0.456s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.482s] -- Detecting CXX compile features
+[0.484s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.987s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.233s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.257s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.273s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.273s] -- BACKWARD_HAS_UNWIND=1
+[1.273s] -- BACKWARD_HAS_BACKTRACE=0
+[1.273s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.275s] -- BACKWARD_HAS_DW=1
+[1.275s] -- BACKWARD_HAS_BFD=0
+[1.277s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.278s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.371s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.386s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.411s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.544s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.552s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.879s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.003s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.031s] -- Looking for C++ include pthread.h
+[4.323s] -- Looking for C++ include pthread.h - found
+[4.324s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.585s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.587s] -- Found Threads: TRUE  
+[5.363s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.368s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.451s] -- Found realtime_tools: 2.5.0 (/home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[6.280s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.282s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[6.980s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[6.987s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.084s] -- The C compiler identification is GNU 11.4.0
+[7.101s] -- Detecting C compiler ABI info
+[7.313s] -- Detecting C compiler ABI info - done
+[7.335s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.336s] -- Detecting C compile features
+[7.337s] -- Detecting C compile features - done
+[7.346s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.348s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.864s] -- Configuring done
+[16.112s] -- Generating done
+[16.145s] -- Build files have been written to: /home/lulav/ros2_ws/build/forward_command_controller
+[16.253s] Invoked command in '/home/lulav/ros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/forward_command_controller
+[16.254s] Invoking command in '/home/lulav/ros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/forward_command_controller -- -j8 -l8
+[99.134s] [  5%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[99.135s] [ 15%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/forward_command_controller/multi_interface_forward_command_controller_parameters/include//multi_interface_forward_command_controller_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/forward_command_controller/src/multi_interface_forward_command_controller_parameters.yaml `[0m
+[99.135s] [ 15%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/forward_command_controller/forward_command_controller_parameters/include//forward_command_controller_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/forward_command_controller/src/forward_command_controller_parameters.yaml `[0m
+[99.136s] [ 21%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[99.136s] [ 26%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[99.136s] [ 26%] Built target multi_interface_forward_command_controller_parameters
+[99.136s] [ 26%] Built target forward_command_controller_parameters
+[99.136s] [ 31%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[99.136s] [ 31%] Built target gmock_main
+[99.137s] [ 36%] [32m[1mLinking CXX static library libgmock.a[0m
+[99.137s] [ 36%] Built target gmock
+[99.137s] [ 42%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_controllers_base.cpp.o[0m
+[99.137s] [ 47%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/multi_interface_forward_command_controller.cpp.o[0m
+[99.137s] [ 52%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[99.137s] [ 57%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[99.138s] [ 57%] Built target forward_command_controller
+[99.138s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[107.194s] [ 68%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[109.021s] [ 68%] Built target test_load_forward_command_controller
+[109.087s] [ 73%] [32mBuilding CXX object CMakeFiles/test_multi_interface_forward_command_controller.dir/test/test_multi_interface_forward_command_controller.cpp.o[0m
+[128.130s] [ 78%] [32m[1mLinking CXX executable test_multi_interface_forward_command_controller[0m
+[129.891s] [ 78%] Built target test_multi_interface_forward_command_controller
+[129.959s] [ 84%] [32mBuilding CXX object CMakeFiles/test_load_multi_interface_forward_command_controller.dir/test/test_load_multi_interface_forward_command_controller.cpp.o[0m
+[144.027s] [ 89%] [32m[1mLinking CXX executable test_load_multi_interface_forward_command_controller[0m
+[146.414s] [ 89%] Built target test_load_multi_interface_forward_command_controller
+[146.476s] [ 94%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[164.216s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[166.003s] [100%] Built target test_forward_command_controller
+[166.034s] Invoked command in '/home/lulav/ros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/forward_command_controller -- -j8 -l8
+[166.184s] Invoking command in '/home/lulav/ros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/forward_command_controller
+[166.207s] -- Install configuration: ""
+[166.210s] -- Execute custom install script
+[166.211s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/include/forward_command_controller_parameters/forward_command_controller_parameters.hpp
+[166.235s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/include/multi_interface_forward_command_controller_parameters/multi_interface_forward_command_controller_parameters.hpp
+[166.263s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller//forward_command_plugin.xml
+[166.287s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/forward_command_controller.hpp
+[166.311s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/forward_controllers_base.hpp
+[166.335s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/multi_interface_forward_command_controller.hpp
+[166.359s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller/visibility_control.h
+[166.382s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[166.406s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[166.431s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[166.455s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[166.480s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[166.504s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[166.528s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[166.553s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[166.578s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[166.602s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[166.626s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[166.652s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[166.677s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/package.dsv
+[166.705s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[166.730s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[166.755s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_targets-extras.cmake
+[166.779s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[166.803s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[166.827s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[166.853s] -- Symlinking: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/package.xml
+[166.880s] -- Installing: /home/lulav/ros2_ws/install/forward_command_controller/lib/libforward_command_controller.so
+[166.897s] -- Set runtime path of "/home/lulav/ros2_ws/install/forward_command_controller/lib/libforward_command_controller.so" to ""
+[166.898s] -- Installing: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/export_forward_command_controllerExport.cmake
+[166.899s] -- Installing: /home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/export_forward_command_controllerExport-noconfig.cmake
+[166.914s] Invoked command in '/home/lulav/ros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/forward_command_controller

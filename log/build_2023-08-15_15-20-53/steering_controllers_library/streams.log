@@ -1,0 +1,33 @@
+[0.168s] Invoking command in '/home/lulav/ros2_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/steering_controllers_library -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/steering_controllers_library
+[1.108s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.108s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.109s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.109s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.109s] -- BACKWARD_HAS_UNWIND=1
+[1.109s] -- BACKWARD_HAS_BACKTRACE=0
+[1.109s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.109s] -- BACKWARD_HAS_DW=1
+[1.109s] -- BACKWARD_HAS_BFD=0
+[1.110s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.110s] -- Found control_msgs: 4.4.0 (/home/lulav/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[1.110s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.110s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.110s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.110s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.792s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[4.112s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.116s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.740s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.899s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.911s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.998s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[6.498s] -- Found realtime_tools: 2.5.0 (/home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[6.659s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.739s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[6.761s] -- Found tf2_msgs: 0.25.3 (/opt/ros/humble/share/tf2_msgs/cmake)
+[7.344s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.379s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.385s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.027s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[8.886s] Invoked command in '/home/lulav/ros2_ws/build/steering_controllers_library' returned '-2': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/steering_controllers_library -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/steering_controllers_library

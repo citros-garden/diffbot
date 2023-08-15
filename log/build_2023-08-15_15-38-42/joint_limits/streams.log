@@ -1,0 +1,30 @@
+[0.076s] Invoking command in '/home/lulav/ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/joint_limits -- -j8 -l8
+[0.268s] [ 33%] Built target gtest_main
+[0.270s] [ 66%] Built target gtest
+[0.376s] [100%] Built target joint_limits_rosparam_test
+[1.024s] Invoked command in '/home/lulav/ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/joint_limits -- -j8 -l8
+[1.165s] Invoking command in '/home/lulav/ros2_ws/build/joint_limits': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/joint_limits
+[1.198s] -- Install configuration: ""
+[1.200s] -- Execute custom install script
+[1.204s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/include/joint_limits/joint_limits.hpp
+[1.204s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/include/joint_limits/joint_limits_rosparam.hpp
+[1.204s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[1.207s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[1.207s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[1.207s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[1.208s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[1.209s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[1.211s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/environment/path.sh
+[1.212s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/environment/path.dsv
+[1.213s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/local_setup.bash
+[1.216s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/local_setup.sh
+[1.228s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/local_setup.zsh
+[1.228s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/local_setup.dsv
+[1.228s] -- Symlinking: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/package.dsv
+[1.250s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[1.250s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.250s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.251s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[1.251s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[1.251s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_limits/share/joint_limits/package.xml
+[1.294s] Invoked command in '/home/lulav/ros2_ws/build/joint_limits' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/joint_limits

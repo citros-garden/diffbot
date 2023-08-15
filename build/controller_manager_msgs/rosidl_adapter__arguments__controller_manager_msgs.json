@@ -1,0 +1,19 @@
+{
+  "package_name": "controller_manager_msgs",
+  "non_idl_tuples": [
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:msg/ControllerState.msg",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:msg/ChainConnection.msg",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:msg/HardwareComponentState.msg",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:msg/HardwareInterface.msg",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/ConfigureController.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/ListControllers.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/ListControllerTypes.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/ListHardwareComponents.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/ListHardwareInterfaces.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/LoadController.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/ReloadControllerLibraries.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/SetHardwareComponentState.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/SwitchController.srv",
+    "/home/lulav/ros2_ws/src/ros2_control/controller_manager_msgs:srv/UnloadController.srv"
+  ]
+}

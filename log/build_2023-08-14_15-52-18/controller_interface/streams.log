@@ -1,0 +1,105 @@
+[0.015s] Invoking command in '/home/lulav/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/controller_interface
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.192s] -- The CXX compiler identification is GNU 11.4.0
+[0.203s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.322s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.322s] -- Detecting C compile features
+[0.323s] -- Detecting C compile features - done
+[0.329s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.462s] -- Detecting CXX compile features
+[0.463s] -- Detecting CXX compile features - done
+[0.466s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.750s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.851s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.887s] -- Found hardware_interface: 2.29.0 (/home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.949s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.956s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.969s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.991s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.023s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.154s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.158s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.317s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.372s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.467s] -- Looking for pthread.h
+[2.577s] -- Looking for pthread.h - found
+[2.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.696s] -- Found Threads: TRUE  
+[3.058s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[3.061s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.068s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.069s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.571s] -- Configuring done
+[3.731s] -- Generating done
+[3.735s] -- Build files have been written to: /home/lulav/ros2_ws/build/controller_interface
+[3.753s] Invoked command in '/home/lulav/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/controller_interface
+[3.756s] Invoking command in '/home/lulav/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_interface -- -j8 -l8
+[3.839s] [  4%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface_base.cpp.o[0m
+[3.840s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[3.841s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[3.843s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[3.844s] [ 23%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/chainable_controller_interface.cpp.o[0m
+[3.844s] [ 28%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[9.464s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[9.862s] [ 33%] Built target gmock_main
+[15.965s] [ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[16.109s] [ 42%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[16.147s] [ 42%] Built target gmock
+[16.195s] [ 47%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[16.195s] [ 52%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[16.200s] [ 57%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[16.504s] [ 57%] Built target controller_interface
+[16.605s] [ 61%] [32mBuilding CXX object CMakeFiles/test_controller_interface.dir/test/test_controller_interface.cpp.o[0m
+[16.650s] [ 66%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[16.651s] [ 71%] [32mBuilding CXX object CMakeFiles/test_chainable_controller_interface.dir/test/test_chainable_controller_interface.cpp.o[0m
+[23.707s] [ 76%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[25.334s] [ 80%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[25.555s] [ 80%] Built target test_imu_sensor
+[26.473s] [ 85%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[26.769s] [ 85%] Built target test_semantic_component_interface
+[28.150s] [ 85%] Built target test_force_torque_sensor
+[30.717s] [ 90%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[31.527s] [ 90%] Built target test_controller_with_options
+[32.539s] [ 95%] [32m[1mLinking CXX executable test_chainable_controller_interface[0m
+[32.941s] [100%] [32m[1mLinking CXX executable test_controller_interface[0m
+[33.042s] [100%] Built target test_chainable_controller_interface
+[33.470s] [100%] Built target test_controller_interface
+[33.488s] Invoked command in '/home/lulav/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_interface -- -j8 -l8
+[33.573s] Invoking command in '/home/lulav/ros2_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_interface
+[33.585s] -- Install configuration: ""
+[33.586s] -- Execute custom install script
+[33.587s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/chainable_controller_interface.hpp
+[33.601s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[33.616s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/controller_interface_base.hpp
+[33.630s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/helpers.hpp
+[33.644s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[33.660s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[33.676s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[33.692s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[33.708s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/lib/libcontroller_interface.so
+[33.724s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[33.739s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[33.753s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[33.768s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[33.782s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[33.796s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[33.811s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[33.826s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[33.840s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[33.855s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[33.869s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[33.884s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[33.898s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/package.dsv
+[33.915s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[33.932s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.948s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.963s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[33.978s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[33.993s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[34.009s] -- Symlinking: /home/lulav/ros2_ws/install/controller_interface/share/controller_interface/package.xml
+[34.029s] Invoked command in '/home/lulav/ros2_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_interface

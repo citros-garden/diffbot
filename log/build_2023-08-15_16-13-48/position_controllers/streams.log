@@ -1,0 +1,69 @@
+[0.129s] Invoking command in '/home/lulav/ros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/position_controllers
+[3.621s] -- The CXX compiler identification is GNU 11.4.0
+[3.621s] -- Detecting CXX compiler ABI info
+[3.621s] -- Detecting CXX compiler ABI info - done
+[3.621s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.622s] -- Detecting CXX compile features
+[3.622s] -- Detecting CXX compile features - done
+[3.622s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.622s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.622s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.622s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[3.623s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[3.623s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[3.623s] -- BACKWARD_HAS_UNWIND=1
+[3.624s] -- BACKWARD_HAS_BACKTRACE=0
+[3.624s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[3.624s] -- BACKWARD_HAS_DW=1
+[3.624s] -- BACKWARD_HAS_BFD=0
+[3.624s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[3.625s] -- Found forward_command_controller: 2.24.0 (/home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[3.625s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.625s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.625s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.625s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.707s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.718s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.175s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.261s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.485s] -- Looking for C++ include pthread.h
+[6.022s] -- Looking for C++ include pthread.h - found
+[6.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.668s] -- Found Threads: TRUE  
+[8.366s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[9.080s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[9.084s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[10.160s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[10.170s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[10.339s] -- The C compiler identification is GNU 11.4.0
+[10.364s] -- Detecting C compiler ABI info
+[11.036s] -- Detecting C compiler ABI info - done
+[11.080s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.081s] -- Detecting C compile features
+[11.083s] -- Detecting C compile features - done
+[11.114s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[11.117s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.685s] -- Configuring done
+[12.984s] -- Generating done
+[13.004s] -- Build files have been written to: /home/lulav/ros2_ws/build/position_controllers
+[13.054s] Invoked command in '/home/lulav/ros2_ws/build/position_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/position_controllers
+[13.055s] Invoking command in '/home/lulav/ros2_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/position_controllers -- -j8 -l8
+[47.627s] [  9%] [32mBuilding CXX object CMakeFiles/position_controllers.dir/src/joint_group_position_controller.cpp.o[0m
+[47.628s] [ 18%] [32m[1mLinking CXX shared library libposition_controllers.so[0m
+[47.628s] [ 18%] Built target position_controllers
+[47.628s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[47.628s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[50.554s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[51.027s] [ 45%] Built target gmock
+[51.103s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[56.141s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[56.349s] [ 63%] Built target gmock_main
+[56.448s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_position_controller.dir/test/test_load_joint_group_position_controller.cpp.o[0m
+[73.060s] [ 81%] [32m[1mLinking CXX executable test_load_joint_group_position_controller[0m
+[75.256s] [ 81%] Built target test_load_joint_group_position_controller
+[75.313s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_group_position_controller.dir/test/test_joint_group_position_controller.cpp.o[0m
+[90.249s] [100%] [32m[1mLinking CXX executable test_joint_group_position_controller[0m
+[91.397s] [100%] Built target test_joint_group_position_controller

@@ -1,0 +1,46 @@
+[1.393s] Invoking command in '/home/lulav/ros2_ws/build/rqt_controller_manager': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_controller_manager/prefix_override:/home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lulav/ros2_ws/build/rqt_controller_manager/build
+[1.929s] running develop
+[1.930s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.930s]   warnings.warn(
+[1.933s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.933s]   warnings.warn(
+[2.336s] Removing /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt-controller-manager.egg-link (link to .)
+[2.834s] Invoked command in '/home/lulav/ros2_ws/build/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_controller_manager/prefix_override:/home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lulav/ros2_ws/build/rqt_controller_manager/build
+[2.838s] Invoking command in '/home/lulav/ros2_ws/src/ros2_control/rqt_controller_manager': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_controller_manager/prefix_override:/home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_controller_manager build --build-base /home/lulav/ros2_ws/build/rqt_controller_manager/build install --record /home/lulav/ros2_ws/build/rqt_controller_manager/install.log --single-version-externally-managed
+[3.381s] running egg_info
+[3.382s] writing ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/PKG-INFO
+[3.383s] writing dependency_links to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/dependency_links.txt
+[3.383s] writing entry points to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/entry_points.txt
+[3.383s] writing requirements to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/requires.txt
+[3.384s] writing top-level names to ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/top_level.txt
+[3.387s] reading manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[3.389s] writing manifest file '../../../build/rqt_controller_manager/rqt_controller_manager.egg-info/SOURCES.txt'
+[3.389s] running build
+[3.390s] running build_py
+[3.390s] creating /home/lulav/ros2_ws/build/rqt_controller_manager/build
+[3.390s] creating /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib
+[3.390s] creating /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[3.390s] copying rqt_controller_manager/controller_manager.py -> /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[3.391s] copying rqt_controller_manager/main.py -> /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[3.391s] copying rqt_controller_manager/update_combo.py -> /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[3.391s] copying rqt_controller_manager/__init__.py -> /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager
+[3.391s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.391s]   warnings.warn(
+[3.392s] running install
+[3.392s] running install_lib
+[3.394s] creating /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[3.395s] copying /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/controller_manager.py -> /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[3.395s] copying /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/main.py -> /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[3.395s] copying /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/update_combo.py -> /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[3.395s] copying /home/lulav/ros2_ws/build/rqt_controller_manager/build/lib/rqt_controller_manager/__init__.py -> /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager
+[3.396s] byte-compiling /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/controller_manager.py to controller_manager.cpython-310.pyc
+[3.401s] byte-compiling /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/main.py to main.cpython-310.pyc
+[3.401s] byte-compiling /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/update_combo.py to update_combo.cpython-310.pyc
+[3.402s] byte-compiling /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager/__init__.py to __init__.cpython-310.pyc
+[3.403s] running install_data
+[3.404s] running install_egg_info
+[3.407s] Copying ../../../build/rqt_controller_manager/rqt_controller_manager.egg-info to /home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages/rqt_controller_manager-2.29.0-py3.10.egg-info
+[3.409s] running install_scripts
+[3.449s] Installing rqt_controller_manager script to /home/lulav/ros2_ws/install/rqt_controller_manager/lib/rqt_controller_manager
+[3.449s] writing list of installed files to '/home/lulav/ros2_ws/build/rqt_controller_manager/install.log'
+[3.504s] Invoked command in '/home/lulav/ros2_ws/src/ros2_control/rqt_controller_manager' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_controller_manager/prefix_override:/home/lulav/ros2_ws/install/rqt_controller_manager/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rqt_controller_manager build --build-base /home/lulav/ros2_ws/build/rqt_controller_manager/build install --record /home/lulav/ros2_ws/build/rqt_controller_manager/install.log --single-version-externally-managed

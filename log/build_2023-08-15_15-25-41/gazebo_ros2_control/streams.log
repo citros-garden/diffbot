@@ -1,0 +1,119 @@
+[0.389s] Invoking command in '/home/lulav/ros2_ws/build/gazebo_ros2_control': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/gazebo_ros2_control
+[0.463s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.018s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.047s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[1.051s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[1.185s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.192s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.239s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.260s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.326s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.958s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.962s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.551s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.038s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[7.169s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.247s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[7.252s] -- Looking for ignition-math6 -- found version 6.12.0
+[7.264s] -- Searching for dependencies of ignition-math6
+[7.268s] -- Looking for OGRE...
+[7.284s] -- Found Ogre Ghadamon (1.9.0)
+[7.286s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[7.315s] -- Looking for OGRE_Paging...
+[7.316s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.318s] -- Looking for OGRE_Terrain...
+[7.319s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.320s] -- Looking for OGRE_Property...
+[7.322s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.323s] -- Looking for OGRE_RTShaderSystem...
+[7.325s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.326s] -- Looking for OGRE_Volume...
+[7.327s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.329s] -- Looking for OGRE_Overlay...
+[7.330s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[7.644s] -- Looking for ignition-math6 -- found version 6.12.0
+[7.646s] -- Looking for ignition-transport8 -- found version 8.2.1
+[7.648s] -- Searching for dependencies of ignition-transport8
+[7.694s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[7.723s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.749s] -- Checking for module 'libzmq >= 4'
+[7.783s] --   Found libzmq , version 4.3.4
+[7.926s] -- Checking for module 'uuid'
+[8.067s] --   Found uuid, version 2.37.2
+[8.152s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.153s] -- Searching for dependencies of ignition-msgs5
+[8.229s] -- Looking for ignition-math6 -- found version 6.12.0
+[8.246s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.247s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.248s] -- Searching for dependencies of ignition-common3
+[8.249s] -- Looking for dlfcn.h - found
+[8.249s] -- Looking for libdl - found
+[8.277s] -- Searching for <ignition-common3> component [graphics]
+[8.279s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.282s] -- Searching for dependencies of ignition-common3-graphics
+[8.284s] -- Looking for ignition-math6 -- found version 6.12.0
+[8.287s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.290s] -- Searching for dependencies of ignition-fuel_tools4
+[8.384s] -- Checking for module 'jsoncpp'
+[8.422s] --   Found jsoncpp, version 1.9.5
+[8.513s] -- Checking for module 'libzip'
+[8.557s] --   Found libzip, version 1.7.3
+[8.655s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.656s] -- Looking for ignition-math6 -- found version 6.12.0
+[8.657s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.661s] -- Gazebo version: 11.10
+[8.662s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[8.690s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[10.624s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.627s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.904s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.907s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.909s] -- Configured cppcheck include dirs: /home/lulav/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control/include
+[10.920s] -- Configured cppcheck exclude dirs and/or files: 
+[10.923s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.923s] -- Configured cpplint exclude dirs and/or files: 
+[10.925s] -- Added test 'lint_cmake' to check CMake code style
+[10.929s] -- Added test 'uncrustify' to check C / C++ code style
+[10.929s] -- Configured uncrustify additional arguments: 
+[10.930s] -- Added test 'xmllint' to check XML markup files
+[10.934s] -- Configuring done
+[11.104s] -- Generating done
+[11.113s] -- Build files have been written to: /home/lulav/ros2_ws/build/gazebo_ros2_control
+[11.159s] Invoked command in '/home/lulav/ros2_ws/build/gazebo_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/gazebo_ros2_control/gazebo_ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/gazebo_ros2_control
+[11.160s] Invoking command in '/home/lulav/ros2_ws/build/gazebo_ros2_control': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/gazebo_ros2_control -- -j8 -l8
+[11.367s] [35m[1mConsolidate compiler generated dependencies of target gazebo_ros2_control[0m
+[11.471s] [ 50%] Built target gazebo_ros2_control
+[11.510s] [35m[1mConsolidate compiler generated dependencies of target gazebo_hardware_plugins[0m
+[11.644s] [100%] Built target gazebo_hardware_plugins
+[11.703s] Invoked command in '/home/lulav/ros2_ws/build/gazebo_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/gazebo_ros2_control -- -j8 -l8
+[11.901s] Invoking command in '/home/lulav/ros2_ws/build/gazebo_ros2_control': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/gazebo_ros2_control
+[14.530s] -- Install configuration: ""
+[14.530s] -- Execute custom install script
+[14.530s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp
+[14.531s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control//gazebo_hardware_plugins.xml
+[14.532s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[14.532s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[14.532s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[14.532s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[14.533s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[14.533s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[14.533s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[14.533s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[14.533s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[14.533s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[14.534s] -- Symlinking: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[14.534s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[14.534s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control
+[14.534s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.534s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.534s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[14.534s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[14.535s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[14.535s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[14.559s] Invoked command in '/home/lulav/ros2_ws/build/gazebo_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/gazebo_ros2_control

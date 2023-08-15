@@ -1,0 +1,101 @@
+[0.098s] Invoking command in '/home/lulav/ros2_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/effort_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/effort_controllers
+[8.664s] -- The CXX compiler identification is GNU 11.4.0
+[8.665s] -- Detecting CXX compiler ABI info
+[8.665s] -- Detecting CXX compiler ABI info - done
+[8.665s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.665s] -- Detecting CXX compile features
+[8.665s] -- Detecting CXX compile features - done
+[8.665s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.666s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[8.666s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.666s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[8.666s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[8.666s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[8.666s] -- BACKWARD_HAS_UNWIND=1
+[8.666s] -- BACKWARD_HAS_BACKTRACE=0
+[8.667s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[8.667s] -- BACKWARD_HAS_DW=1
+[8.667s] -- BACKWARD_HAS_BFD=0
+[8.667s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[8.667s] -- Found forward_command_controller: 2.24.0 (/home/lulav/ros2_ws/install/forward_command_controller/share/forward_command_controller/cmake)
+[8.667s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.667s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.668s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.668s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.668s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.668s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.668s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.669s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.669s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.669s] -- Looking for C++ include pthread.h
+[8.669s] -- Looking for C++ include pthread.h - found
+[8.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.669s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.669s] -- Found Threads: TRUE  
+[8.670s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[8.670s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[8.670s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[8.684s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.693s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.811s] -- The C compiler identification is GNU 11.4.0
+[8.831s] -- Detecting C compiler ABI info
+[9.129s] -- Detecting C compiler ABI info - done
+[9.161s] -- Check for working C compiler: /usr/bin/cc - skipped
+[9.162s] -- Detecting C compile features
+[9.164s] -- Detecting C compile features - done
+[9.178s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[9.181s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.501s] -- Configuring done
+[10.759s] -- Generating done
+[10.768s] -- Build files have been written to: /home/lulav/ros2_ws/build/effort_controllers
+[10.820s] Invoked command in '/home/lulav/ros2_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/effort_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/effort_controllers
+[10.822s] Invoking command in '/home/lulav/ros2_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/effort_controllers -- -j8 -l8
+[19.562s] [  9%] [32mBuilding CXX object CMakeFiles/effort_controllers.dir/src/joint_group_effort_controller.cpp.o[0m
+[20.111s] [ 18%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[21.021s] [ 18%] Built target effort_controllers
+[21.084s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[30.797s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[34.820s] [ 45%] [32m[1mLinking CXX static library libgmock.a[0m
+[34.986s] [ 45%] Built target gmock
+[35.035s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[37.114s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[37.220s] [ 63%] Built target gmock_main
+[37.256s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_effort_controller.dir/test/test_load_joint_group_effort_controller.cpp.o[0m
+[49.706s] [ 81%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[51.639s] [ 81%] Built target test_load_joint_group_effort_controller
+[51.689s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_group_effort_controller.dir/test/test_joint_group_effort_controller.cpp.o[0m
+[68.336s] [100%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[69.493s] [100%] Built target test_joint_group_effort_controller
+[69.513s] Invoked command in '/home/lulav/ros2_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/effort_controllers -- -j8 -l8
+[69.568s] Invoking command in '/home/lulav/ros2_ws/build/effort_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/effort_controllers
+[69.582s] -- Install configuration: ""
+[69.583s] -- Execute custom install script
+[69.583s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers//effort_controllers_plugins.xml
+[69.599s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/include/effort_controllers/effort_controllers/joint_group_effort_controller.hpp
+[69.615s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/include/effort_controllers/effort_controllers/visibility_control.h
+[69.632s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+[69.650s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+[69.666s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+[69.683s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+[69.700s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+[69.717s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+[69.734s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/environment/path.sh
+[69.753s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/environment/path.dsv
+[69.771s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/local_setup.bash
+[69.787s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/local_setup.sh
+[69.804s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/local_setup.zsh
+[69.820s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/local_setup.dsv
+[69.837s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/package.dsv
+[69.853s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+[69.870s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+[69.887s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[69.903s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.920s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+[69.938s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+[69.955s] -- Symlinking: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/package.xml
+[69.973s] -- Installing: /home/lulav/ros2_ws/install/effort_controllers/lib/libeffort_controllers.so
+[69.974s] -- Set runtime path of "/home/lulav/ros2_ws/install/effort_controllers/lib/libeffort_controllers.so" to ""
+[69.974s] -- Installing: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+[69.975s] -- Installing: /home/lulav/ros2_ws/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake
+[69.983s] Invoked command in '/home/lulav/ros2_ws/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/forward_command_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/forward_command_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/effort_controllers

@@ -1,0 +1,108 @@
+[0.080s] Invoking command in '/home/lulav/ros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/joint_state_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/joint_state_broadcaster
+[0.243s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting CXX compiler ABI info
+[0.487s] -- Detecting CXX compiler ABI info - done
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.516s] -- Detecting CXX compile features
+[0.518s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.066s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.327s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.450s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.478s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.497s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.498s] -- BACKWARD_HAS_UNWIND=1
+[1.498s] -- BACKWARD_HAS_BACKTRACE=0
+[1.498s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.498s] -- BACKWARD_HAS_DW=1
+[1.499s] -- BACKWARD_HAS_BFD=0
+[1.501s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.507s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.592s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.609s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.634s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.745s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.806s] -- Found control_msgs: 4.4.0 (/home/lulav/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[3.579s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[3.952s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.960s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.247s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.335s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.494s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.523s] -- Looking for C++ include pthread.h
+[4.867s] -- Looking for C++ include pthread.h - found
+[4.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.195s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.198s] -- Found Threads: TRUE  
+[5.985s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.991s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[6.070s] -- Found realtime_tools: 2.5.0 (/home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[6.377s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.378s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[7.011s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[7.018s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.120s] -- The C compiler identification is GNU 11.4.0
+[7.142s] -- Detecting C compiler ABI info
+[7.410s] -- Detecting C compiler ABI info - done
+[7.452s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.454s] -- Detecting C compile features
+[7.457s] -- Detecting C compile features - done
+[7.472s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.474s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.897s] -- Configuring done
+[9.052s] -- Generating done
+[9.058s] -- Build files have been written to: /home/lulav/ros2_ws/build/joint_state_broadcaster
+[9.107s] Invoked command in '/home/lulav/ros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/joint_state_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/joint_state_broadcaster
+[9.108s] Invoking command in '/home/lulav/ros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/joint_state_broadcaster -- -j8 -l8
+[10.156s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/joint_state_broadcaster/joint_state_broadcaster_parameters/include//joint_state_broadcaster_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/joint_state_broadcaster/src/joint_state_broadcaster_parameters.yaml `[0m
+[10.157s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[10.157s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[10.157s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[10.789s] [ 33%] Built target joint_state_broadcaster_parameters
+[11.012s] [ 41%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[19.060s] [ 50%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[19.737s] [ 50%] Built target gmock_main
+[35.543s] [ 58%] [32m[1mLinking CXX static library libgmock.a[0m
+[36.191s] [ 58%] Built target gmock
+[43.695s] [ 66%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[44.712s] [ 66%] Built target joint_state_broadcaster
+[44.778s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[60.373s] [ 83%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[63.401s] [ 83%] Built target test_load_joint_state_broadcaster
+[63.542s] [ 91%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[108.096s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[110.812s] [100%] Built target test_joint_state_broadcaster
+[110.843s] Invoked command in '/home/lulav/ros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/joint_state_broadcaster -- -j8 -l8
+[110.957s] Invoking command in '/home/lulav/ros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/joint_state_broadcaster
+[110.980s] -- Install configuration: ""
+[110.981s] -- Execute custom install script
+[110.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster_parameters/joint_state_broadcaster_parameters.hpp
+[110.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster//joint_state_plugin.xml
+[110.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/joint_state_broadcaster.hpp
+[110.984s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster/visibility_control.h
+[110.989s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[110.989s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[110.989s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[110.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[110.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[110.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[110.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[110.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[110.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[110.991s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[110.991s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[110.991s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[110.991s] -- Symlinking: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[111.022s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[111.023s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[111.023s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[111.023s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[111.023s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[111.023s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[111.024s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[111.024s] -- Installing: /home/lulav/ros2_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[111.031s] -- Set runtime path of "/home/lulav/ros2_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+[111.031s] -- Installing: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport.cmake
+[111.031s] -- Installing: /home/lulav/ros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/export_joint_state_broadcasterExport-noconfig.cmake
+[111.066s] Invoked command in '/home/lulav/ros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/joint_state_broadcaster

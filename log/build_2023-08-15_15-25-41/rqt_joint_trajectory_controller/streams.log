@@ -1,0 +1,21 @@
+[1.567s] Invoking command in '/home/lulav/ros2_ws/build/rqt_joint_trajectory_controller': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lulav/ros2_ws/build/rqt_joint_trajectory_controller/build --no-deps install_data
+[2.136s] running develop
+[2.137s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.137s]   warnings.warn(
+[2.140s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.140s]   warnings.warn(
+[2.575s] running egg_info
+[2.575s] writing rqt_joint_trajectory_controller.egg-info/PKG-INFO
+[2.575s] writing dependency_links to rqt_joint_trajectory_controller.egg-info/dependency_links.txt
+[2.576s] writing entry points to rqt_joint_trajectory_controller.egg-info/entry_points.txt
+[2.576s] writing requirements to rqt_joint_trajectory_controller.egg-info/requires.txt
+[2.576s] writing top-level names to rqt_joint_trajectory_controller.egg-info/top_level.txt
+[2.579s] reading manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[2.581s] writing manifest file 'rqt_joint_trajectory_controller.egg-info/SOURCES.txt'
+[2.582s] running build_ext
+[2.583s] Creating /home/lulav/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages/rqt-joint-trajectory-controller.egg-link (link to .)
+[2.585s] Installing rqt_joint_trajectory_controller script to /home/lulav/ros2_ws/install/rqt_joint_trajectory_controller/lib/rqt_joint_trajectory_controller
+[2.585s] 
+[2.585s] Installed /home/lulav/ros2_ws/build/rqt_joint_trajectory_controller
+[2.585s] running install_data
+[2.636s] Invoked command in '/home/lulav/ros2_ws/build/rqt_joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/rqt_joint_trajectory_controller/prefix_override:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lulav/ros2_ws/build/rqt_joint_trajectory_controller/build --no-deps install_data

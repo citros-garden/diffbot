@@ -1,0 +1,1 @@
+/home/lulav/ros2_ws/build/ros2_control/ament_cmake_core/ros2_controlConfig.cmake

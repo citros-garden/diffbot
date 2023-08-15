@@ -1,0 +1,109 @@
+[0.102s] Invoking command in '/home/lulav/ros2_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/gripper_controllers
+[0.737s] -- The CXX compiler identification is GNU 11.4.0
+[0.737s] -- Detecting CXX compiler ABI info
+[0.737s] -- Detecting CXX compiler ABI info - done
+[0.738s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.738s] -- Detecting CXX compile features
+[0.738s] -- Detecting CXX compile features - done
+[0.738s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.124s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.312s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.402s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.434s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.453s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.453s] -- BACKWARD_HAS_UNWIND=1
+[1.453s] -- BACKWARD_HAS_BACKTRACE=0
+[1.453s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.453s] -- BACKWARD_HAS_DW=1
+[1.454s] -- BACKWARD_HAS_BFD=0
+[1.455s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.461s] -- Found control_msgs: 4.4.0 (/home/lulav/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[1.567s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.583s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.610s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.653s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.700s] -- Found control_toolbox: 3.1.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[3.956s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.965s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.298s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.370s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.527s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.563s] -- Looking for C++ include pthread.h
+[4.929s] -- Looking for C++ include pthread.h - found
+[4.929s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.265s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.269s] -- Found Threads: TRUE  
+[5.932s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[6.560s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[6.567s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[7.398s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[7.400s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[8.121s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.130s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.270s] -- The C compiler identification is GNU 11.4.0
+[8.293s] -- Detecting C compiler ABI info
+[8.586s] -- Detecting C compiler ABI info - done
+[8.612s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.613s] -- Detecting C compile features
+[8.614s] -- Detecting C compile features - done
+[8.626s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.628s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.471s] -- Configuring done
+[9.602s] -- Generating done
+[9.608s] -- Build files have been written to: /home/lulav/ros2_ws/build/gripper_controllers
+[9.640s] Invoked command in '/home/lulav/ros2_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/gripper_controllers
+[9.651s] Invoking command in '/home/lulav/ros2_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/gripper_controllers -- -j8 -l8
+[11.786s] [  8%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/gripper_controllers/gripper_action_controller_parameters/include//gripper_action_controller_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/gripper_controllers/src/gripper_action_controller_parameters.yaml `[0m
+[11.786s] [  8%] Built target gripper_action_controller_parameters
+[11.787s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[19.927s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[25.587s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[25.842s] [ 33%] Built target gmock
+[25.906s] [ 41%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[39.447s] [ 50%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[40.047s] [ 50%] Built target gripper_action_controller
+[40.099s] [ 58%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[43.331s] [ 66%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[43.496s] [ 66%] Built target gmock_main
+[43.564s] [ 75%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[57.305s] [ 83%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[59.015s] [ 83%] Built target test_load_gripper_action_controllers
+[59.085s] [ 91%] [32mBuilding CXX object CMakeFiles/test_gripper_controllers.dir/test/test_gripper_controllers.cpp.o[0m
+[72.560s] [100%] [32m[1mLinking CXX executable test_gripper_controllers[0m
+[73.285s] [100%] Built target test_gripper_controllers
+[73.307s] Invoked command in '/home/lulav/ros2_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/gripper_controllers -- -j8 -l8
+[73.362s] Invoking command in '/home/lulav/ros2_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/gripper_controllers
+[73.375s] -- Install configuration: ""
+[73.376s] -- Execute custom install script
+[73.377s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/include/gripper_action_controller_parameters/gripper_action_controller_parameters.hpp
+[73.393s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers//ros_control_plugins.xml
+[73.409s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller.hpp
+[73.425s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/gripper_action_controller_impl.hpp
+[73.440s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/hardware_interface_adapter.hpp
+[73.455s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/include/gripper_action_controller/gripper_controllers/visibility_control.hpp
+[73.471s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.sh
+[73.486s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/environment/library_path.dsv
+[73.503s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/ament_index/resource_index/package_run_dependencies/gripper_controllers
+[73.519s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/ament_index/resource_index/parent_prefix_path/gripper_controllers
+[73.535s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.sh
+[73.552s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/environment/ament_prefix_path.dsv
+[73.569s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/environment/path.sh
+[73.586s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/environment/path.dsv
+[73.603s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.bash
+[73.620s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.sh
+[73.636s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.zsh
+[73.652s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/local_setup.dsv
+[73.668s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/package.dsv
+[73.683s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/ament_index/resource_index/packages/gripper_controllers
+[73.698s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/gripper_controllers
+[73.713s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[73.729s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.744s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig.cmake
+[73.759s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/gripper_controllersConfig-version.cmake
+[73.776s] -- Symlinking: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/package.xml
+[73.792s] -- Installing: /home/lulav/ros2_ws/install/gripper_controllers/lib/libgripper_action_controller.so
+[73.794s] -- Set runtime path of "/home/lulav/ros2_ws/install/gripper_controllers/lib/libgripper_action_controller.so" to ""
+[73.795s] -- Installing: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport.cmake
+[73.795s] -- Installing: /home/lulav/ros2_ws/install/gripper_controllers/share/gripper_controllers/cmake/export_gripper_action_controllerExport-noconfig.cmake
+[73.801s] Invoked command in '/home/lulav/ros2_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/gripper_controllers

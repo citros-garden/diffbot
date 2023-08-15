@@ -1,0 +1,94 @@
+[0.050s] Invoking command in '/home/lulav/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_manager -- -j8 -l8
+[0.226s] [  6%] Built target gmock_main
+[0.226s] [ 12%] Built target controller_manager
+[0.234s] [ 21%] Built target gmock
+[0.256s] [ 21%] Built target ament_cmake_python_symlink_controller_manager
+[0.257s] [ 21%] Built target ament_cmake_python_symlink_controller_manager_setup
+[0.340s] [ 27%] Built target test_chainable_controller
+[0.344s] [ 39%] Built target test_controller
+[0.347s] [ 39%] Built target ros2_control_node
+[0.355s] [ 45%] Built target test_controller_failed_init
+[0.365s] [ 51%] Built target test_controller_with_interfaces
+[0.476s] [ 57%] Built target test_controller_manager_with_namespace.cpp
+[0.479s] [ 63%] Built target test_controller_manager
+[0.485s] [ 69%] Built target test_spawner_unspawner
+[0.486s] [ 75%] Built target test_controllers_chaining_with_controller_manager
+[0.508s] [ 81%] Built target test_controller_manager_srvs
+[0.543s] [ 87%] Built target test_hardware_management_srvs
+[0.585s] [ 93%] Built target test_release_interfaces
+[0.597s] [100%] Built target test_load_controller
+[1.009s] running egg_info
+[1.012s] writing controller_manager.egg-info/PKG-INFO
+[1.012s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[1.012s] writing entry points to controller_manager.egg-info/entry_points.txt
+[1.013s] writing top-level names to controller_manager.egg-info/top_level.txt
+[1.017s] running install_scripts
+[1.020s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[1.021s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[1.024s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.024s]   warnings.warn(
+[1.084s] [100%] Built target ament_cmake_python_build_controller_manager_egg
+[1.086s] running egg_info
+[1.088s] writing controller_manager.egg-info/PKG-INFO
+[1.088s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[1.088s] writing entry points to controller_manager.egg-info/entry_points.txt
+[1.089s] writing top-level names to controller_manager.egg-info/top_level.txt
+[1.093s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[1.095s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[1.098s] Installing spawner script to scripts
+[1.098s] Installing unspawner script to scripts
+[1.159s] [100%] Built target ament_cmake_python_build_controller_manager_scripts
+[1.183s] Invoked command in '/home/lulav/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_manager -- -j8 -l8
+[1.338s] Invoking command in '/home/lulav/ros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_manager
+[1.352s] -- Install configuration: ""
+[1.354s] -- Execute custom install script
+[1.354s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/libcontroller_manager.so
+[1.355s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[1.355s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[1.355s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[1.356s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[1.356s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[1.356s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/libtest_controller.so
+[1.357s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[1.357s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[1.357s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[1.358s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/libtest_chainable_controller.so
+[1.358s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[1.358s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[1.359s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[1.359s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[1.359s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/PKG-INFO
+[1.360s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/SOURCES.txt
+[1.360s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/dependency_links.txt
+[1.360s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/entry_points.txt
+[1.360s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager-2.29.0-py3.10.egg-info/top_level.txt
+[1.361s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/controller_manager//spawner
+[1.361s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/lib/controller_manager//unspawner
+[1.366s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/__init__.py
+[1.366s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/controller_manager_services.py
+[1.366s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/launch_utils.py
+[1.366s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/spawner.py
+[1.366s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager/unspawner.py
+[1.367s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[1.367s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[1.367s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[1.367s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[1.367s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[1.367s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[1.368s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[1.368s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[1.368s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[1.368s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[1.368s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[1.368s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[1.369s] -- Symlinking: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/package.dsv
+[1.387s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[1.387s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[1.388s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[1.388s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.388s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.389s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[1.389s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[1.389s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager/share/controller_manager/package.xml
+[1.445s] Listing '/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages/controller_manager'...
+[1.459s] Invoked command in '/home/lulav/ros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_manager

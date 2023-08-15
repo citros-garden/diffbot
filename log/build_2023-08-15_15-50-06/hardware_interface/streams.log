@@ -1,0 +1,73 @@
+[0.075s] Invoking command in '/home/lulav/ros2_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/hardware_interface -- -j8 -l8
+[0.887s] [  5%] Built target gmock_main
+[0.887s] [ 23%] Built target gmock
+[0.887s] [ 28%] Built target hardware_interface
+[0.887s] [ 33%] Built target mock_components
+[0.887s] [ 41%] Built target fake_components
+[0.888s] [ 46%] Built target test_component_parser
+[0.888s] [ 51%] Built target test_inst_hardwares
+[0.888s] [ 56%] Built target test_joint_handle
+[0.888s] [ 61%] Built target test_macros
+[0.890s] [ 66%] Built target test_component_interfaces
+[0.890s] [ 76%] Built target test_components
+[0.890s] [ 82%] Built target test_resource_manager
+[0.890s] [ 94%] Built target test_hardware_components
+[0.891s] [100%] Built target test_generic_system
+[0.891s] Invoked command in '/home/lulav/ros2_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/hardware_interface -- -j8 -l8
+[1.056s] Invoking command in '/home/lulav/ros2_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/hardware_interface
+[1.073s] -- Install configuration: ""
+[1.075s] -- Execute custom install script
+[1.075s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface//mock_components_plugin_description.xml
+[1.075s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+[1.080s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[1.080s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[1.080s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[1.080s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[1.081s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[1.081s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[1.081s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[1.081s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/hardware_component_info.hpp
+[1.081s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[1.081s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[1.082s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[1.082s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[1.082s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[1.082s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[1.082s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[1.083s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[1.083s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[1.083s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[1.084s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[1.084s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp
+[1.084s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[1.084s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/mock_components/generic_system.hpp
+[1.084s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/include/mock_components/visibility_control.h
+[1.085s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/lib/libfake_components.so
+[1.085s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/lib/libmock_components.so
+[1.085s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/lib/libhardware_interface.so
+[1.085s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/lib/libtest_components.so
+[1.085s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[1.086s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[1.086s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[1.086s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[1.086s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[1.087s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[1.087s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[1.087s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[1.087s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[1.087s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[1.088s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[1.088s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[1.088s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[1.089s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[1.089s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[1.089s] -- Symlinking: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[1.111s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[1.111s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[1.112s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.112s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.112s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.113s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[1.113s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[1.113s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/package.xml
+[1.131s] Invoked command in '/home/lulav/ros2_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/hardware_interface

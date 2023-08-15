@@ -1,0 +1,6 @@
+Invoking command in '/home/lulav/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lulav/ros2_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/realtime_tools
+Invoked command in '/home/lulav/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lulav/ros2_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/realtime_tools
+Invoking command in '/home/lulav/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/realtime_tools -- -j8 -l8
+Invoked command in '/home/lulav/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/realtime_tools -- -j8 -l8
+Invoking command in '/home/lulav/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/realtime_tools
+Invoked command in '/home/lulav/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/realtime_tools

@@ -1,0 +1,82 @@
+[0.022s] Invoking command in '/home/lulav/ros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/transmission_interface
+[0.045s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.355s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.374s] -- Found hardware_interface: 2.29.0 (/home/lulav/ros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.448s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.463s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.482s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.987s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.993s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.255s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.722s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[2.724s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[2.728s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.729s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.734s] -- Configuring done
+[4.076s] -- Generating done
+[4.083s] -- Build files have been written to: /home/lulav/ros2_ws/build/transmission_interface
+[4.101s] Invoked command in '/home/lulav/ros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/transmission_interface
+[4.104s] Invoking command in '/home/lulav/ros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/transmission_interface -- -j8 -l8
+[4.188s] [35m[1mConsolidate compiler generated dependencies of target gmock_main[0m
+[4.193s] [35m[1mConsolidate compiler generated dependencies of target transmission_interface[0m
+[4.195s] [35m[1mConsolidate compiler generated dependencies of target gmock[0m
+[4.222s] [  8%] Built target gmock_main
+[4.236s] [ 21%] Built target gmock
+[4.252s] [ 39%] Built target transmission_interface
+[4.270s] [35m[1mConsolidate compiler generated dependencies of target test_simple_transmission[0m
+[4.273s] [35m[1mConsolidate compiler generated dependencies of target test_differential_transmission[0m
+[4.277s] [35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission[0m
+[4.281s] [35m[1mConsolidate compiler generated dependencies of target test_utils[0m
+[4.281s] [35m[1mConsolidate compiler generated dependencies of target test_differential_transmission_loader[0m
+[4.291s] [35m[1mConsolidate compiler generated dependencies of target test_four_bar_linkage_transmission_loader[0m
+[4.300s] [35m[1mConsolidate compiler generated dependencies of target test_simple_transmission_loader[0m
+[4.322s] [ 56%] Built target test_simple_transmission
+[4.322s] [ 47%] Built target test_differential_transmission
+[4.324s] [ 65%] Built target test_differential_transmission_loader
+[4.326s] [ 73%] Built target test_utils
+[4.343s] [ 82%] Built target test_four_bar_linkage_transmission_loader
+[4.344s] [ 91%] Built target test_four_bar_linkage_transmission
+[4.370s] [100%] Built target test_simple_transmission_loader
+[4.424s] Invoked command in '/home/lulav/ros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/transmission_interface -- -j8 -l8
+[4.536s] Invoking command in '/home/lulav/ros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/transmission_interface
+[4.551s] -- Install configuration: ""
+[4.552s] -- Execute custom install script
+[4.553s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[4.553s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[4.553s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/differential_transmission_loader.hpp
+[4.553s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[4.554s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[4.554s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission_loader.hpp
+[4.554s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[4.554s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[4.555s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/simple_transmission_loader.hpp
+[4.555s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[4.555s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/transmission_interface_exception.hpp
+[4.555s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/transmission_loader.hpp
+[4.556s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[4.556s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface//ros2_control_plugins.xml
+[4.557s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/environment/library_path.sh
+[4.557s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/environment/library_path.dsv
+[4.557s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[4.557s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[4.558s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[4.558s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[4.558s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[4.558s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[4.558s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[4.559s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[4.559s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[4.559s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[4.559s] -- Symlinking: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[4.574s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[4.575s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/ament_index/resource_index/transmission_interface__pluginlib__plugin/transmission_interface
+[4.575s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.575s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.576s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[4.576s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[4.576s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[4.577s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/transmission_interface/share/transmission_interface/package.xml
+[4.577s] -- Up-to-date: /home/lulav/ros2_ws/install/transmission_interface/lib/libtransmission_interface.so
+[4.584s] Invoked command in '/home/lulav/ros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/transmission_interface

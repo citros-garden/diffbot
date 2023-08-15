@@ -1,0 +1,85 @@
+[0.104s] Invoking command in '/home/lulav/ros2_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/admittance_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/admittance_controller
+[9.036s] -- The CXX compiler identification is GNU 11.4.0
+[9.036s] -- Detecting CXX compiler ABI info
+[9.036s] -- Detecting CXX compiler ABI info - done
+[9.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.037s] -- Detecting CXX compile features
+[9.037s] -- Detecting CXX compile features - done
+[9.037s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[9.038s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[9.038s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.038s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[9.038s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[9.039s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[9.039s] -- BACKWARD_HAS_UNWIND=1
+[9.039s] -- BACKWARD_HAS_BACKTRACE=0
+[9.039s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[9.039s] -- BACKWARD_HAS_DW=1
+[9.039s] -- BACKWARD_HAS_BFD=0
+[9.040s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[9.040s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[9.040s] -- Found control_msgs: 4.4.0 (/home/lulav/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[9.040s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.040s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.041s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.041s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.041s] -- Found control_toolbox: 3.1.0 (/opt/ros/humble/share/control_toolbox/cmake)
+[9.041s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.041s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.042s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.042s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.042s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.042s] -- Looking for C++ include pthread.h
+[9.042s] -- Looking for C++ include pthread.h - found
+[9.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.043s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.043s] -- Found Threads: TRUE  
+[9.043s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[9.043s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[9.043s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[9.043s] -- Found joint_trajectory_controller: 2.24.0 (/home/lulav/ros2_ws/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake)
+[9.369s] -- Found kinematics_interface: 0.1.0 (/opt/ros/humble/share/kinematics_interface/cmake)
+[9.405s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[9.445s] -- Found tf2_eigen: 0.25.3 (/opt/ros/humble/share/tf2_eigen/cmake)
+[10.586s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[10.616s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[10.620s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[10.620s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.657s] -- Found tf2_kdl: 0.25.3 (/opt/ros/humble/share/tf2_kdl/cmake)
+[11.257s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[11.261s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[12.614s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[12.644s] -- Found kinematics_interface_kdl: 0.1.0 (/opt/ros/humble/share/kinematics_interface_kdl/cmake)
+[12.685s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[12.896s] -- The C compiler identification is GNU 11.4.0
+[12.961s] -- Detecting C compiler ABI info
+[13.539s] -- Detecting C compiler ABI info - done
+[13.597s] -- Check for working C compiler: /usr/bin/cc - skipped
+[13.613s] -- Detecting C compile features
+[13.616s] -- Detecting C compile features - done
+[13.645s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[13.649s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[15.436s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[15.454s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[15.458s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[16.283s] -- Configuring done
+[16.678s] -- Generating done
+[16.695s] -- Build files have been written to: /home/lulav/ros2_ws/build/admittance_controller
+[16.762s] Invoked command in '/home/lulav/ros2_ws/build/admittance_controller' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/admittance_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/admittance_controller
+[16.764s] Invoking command in '/home/lulav/ros2_ws/build/admittance_controller': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller:/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/joint_trajectory_controller/lib:/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/admittance_controller -- -j8 -l8
+[48.816s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/admittance_controller/admittance_controller_parameters/include//admittance_controller_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/admittance_controller/src/admittance_controller_parameters.yaml `[0m
+[48.816s] [ 10%] Built target admittance_controller_parameters
+[48.817s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[48.817s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[48.817s] [ 40%] [32m[1mLinking CXX static library libgmock.a[0m
+[48.817s] [ 40%] Built target gmock
+[48.817s] [ 50%] [32mBuilding CXX object CMakeFiles/admittance_controller.dir/src/admittance_controller.cpp.o[0m
+[92.896s] [ 60%] [32m[1mLinking CXX shared library libadmittance_controller.so[0m
+[94.550s] [ 60%] Built target admittance_controller
+[94.586s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_admittance_controller.dir/test/test_load_admittance_controller.cpp.o[0m
+[103.177s] [ 80%] [32m[1mLinking CXX executable test_load_admittance_controller[0m
+[104.151s] [ 80%] Built target test_load_admittance_controller
+[104.190s] [ 90%] [32mBuilding CXX object CMakeFiles/test_admittance_controller.dir/test/test_admittance_controller.cpp.o[0m
+[131.510s] [100%] [32m[1mLinking CXX executable test_admittance_controller[0m
+[133.957s] [100%] Built target test_admittance_controller

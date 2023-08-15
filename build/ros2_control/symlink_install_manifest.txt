@@ -1,0 +1,15 @@
+/home/lulav/ros2_ws/install/ros2_control/share/ament_index/resource_index/package_run_dependencies/ros2_control
+/home/lulav/ros2_ws/install/ros2_control/share/ament_index/resource_index/parent_prefix_path/ros2_control
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/environment/ament_prefix_path.sh
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/environment/ament_prefix_path.dsv
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/environment/path.sh
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/environment/path.dsv
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/local_setup.bash
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/local_setup.sh
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/local_setup.zsh
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/local_setup.dsv
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/package.dsv
+/home/lulav/ros2_ws/install/ros2_control/share/ament_index/resource_index/packages/ros2_control
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/cmake/ros2_controlConfig.cmake
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/cmake/ros2_controlConfig-version.cmake
+/home/lulav/ros2_ws/install/ros2_control/share/ros2_control/package.xml

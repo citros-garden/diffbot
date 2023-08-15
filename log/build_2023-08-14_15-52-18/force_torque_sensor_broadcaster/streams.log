@@ -1,0 +1,106 @@
+[0.754s] Invoking command in '/home/lulav/ros2_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/force_torque_sensor_broadcaster
+[0.940s] -- The CXX compiler identification is GNU 11.4.0
+[0.960s] -- Detecting CXX compiler ABI info
+[1.193s] -- Detecting CXX compiler ABI info - done
+[1.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.226s] -- Detecting CXX compile features
+[1.227s] -- Detecting CXX compile features - done
+[1.234s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.733s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.900s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.979s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[2.003s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[2.018s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.018s] -- BACKWARD_HAS_UNWIND=1
+[2.018s] -- BACKWARD_HAS_BACKTRACE=0
+[2.018s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.018s] -- BACKWARD_HAS_DW=1
+[2.019s] -- BACKWARD_HAS_BFD=0
+[2.020s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.022s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.138s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.163s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.202s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.075s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.082s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.320s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.380s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.510s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.542s] -- Looking for C++ include pthread.h
+[4.782s] -- Looking for C++ include pthread.h - found
+[4.795s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.067s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.069s] -- Found Threads: TRUE  
+[5.760s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.765s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.841s] -- Found realtime_tools: 2.5.0 (/home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[6.613s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.614s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[7.343s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[7.350s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.450s] -- The C compiler identification is GNU 11.4.0
+[7.468s] -- Detecting C compiler ABI info
+[7.705s] -- Detecting C compiler ABI info - done
+[7.735s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.739s] -- Detecting C compile features
+[7.741s] -- Detecting C compile features - done
+[7.760s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.768s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[10.482s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[10.484s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[10.488s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.783s] -- Configuring done
+[12.486s] -- Generating done
+[12.510s] -- Build files have been written to: /home/lulav/ros2_ws/build/force_torque_sensor_broadcaster
+[12.631s] Invoked command in '/home/lulav/ros2_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/force_torque_sensor_broadcaster
+[12.656s] Invoking command in '/home/lulav/ros2_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/force_torque_sensor_broadcaster -- -j8 -l8
+[16.167s] [ 10%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster_parameters/include//force_torque_sensor_broadcaster_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/force_torque_sensor_broadcaster/src/force_torque_sensor_broadcaster_parameters.yaml `[0m
+[16.167s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[16.168s] [ 30%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[16.168s] [ 30%] Built target force_torque_sensor_broadcaster_parameters
+[16.168s] [ 40%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[39.942s] [ 50%] [32m[1mLinking CXX static library libgmock.a[0m
+[40.196s] [ 50%] Built target gmock
+[45.366s] [ 60%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[46.176s] [ 60%] Built target force_torque_sensor_broadcaster
+[46.238s] [ 70%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[63.299s] [ 80%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[65.569s] [ 80%] Built target test_load_force_torque_sensor_broadcaster
+[65.639s] [ 90%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[99.098s] [100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[102.051s] [100%] Built target test_force_torque_sensor_broadcaster
+[102.094s] Invoked command in '/home/lulav/ros2_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/force_torque_sensor_broadcaster -- -j8 -l8
+[102.307s] Invoking command in '/home/lulav/ros2_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/force_torque_sensor_broadcaster
+[102.631s] -- Install configuration: ""
+[102.632s] -- Execute custom install script
+[102.632s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster_parameters/force_torque_sensor_broadcaster_parameters.hpp
+[102.632s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster//force_torque_sensor_broadcaster.xml
+[102.632s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster.hpp
+[102.632s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/include/force_torque_sensor_broadcaster/force_torque_sensor_broadcaster/visibility_control.h
+[102.633s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.sh
+[102.633s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/library_path.dsv
+[102.633s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/force_torque_sensor_broadcaster
+[102.633s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/force_torque_sensor_broadcaster
+[102.634s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.sh
+[102.675s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/ament_prefix_path.dsv
+[102.703s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.sh
+[102.735s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/environment/path.dsv
+[102.760s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.bash
+[102.788s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.sh
+[102.819s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.zsh
+[102.848s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/local_setup.dsv
+[102.876s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.dsv
+[102.908s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/packages/force_torque_sensor_broadcaster
+[102.939s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/force_torque_sensor_broadcaster
+[102.963s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_targets-extras.cmake
+[102.990s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[103.022s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig.cmake
+[103.053s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/force_torque_sensor_broadcasterConfig-version.cmake
+[103.096s] -- Symlinking: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/package.xml
+[103.200s] -- Installing: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so
+[103.200s] -- Set runtime path of "/home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/lib/libforce_torque_sensor_broadcaster.so" to ""
+[103.200s] -- Installing: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport.cmake
+[103.200s] -- Installing: /home/lulav/ros2_ws/install/force_torque_sensor_broadcaster/share/force_torque_sensor_broadcaster/cmake/export_force_torque_sensor_broadcasterExport-noconfig.cmake
+[103.286s] Invoked command in '/home/lulav/ros2_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/force_torque_sensor_broadcaster

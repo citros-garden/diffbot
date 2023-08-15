@@ -1,0 +1,83 @@
+[3.243s] Invoking command in '/home/lulav/ros2_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/ros2controlcli/prefix_override:/home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lulav/ros2_ws/build/ros2controlcli/build
+[8.812s] running develop
+[8.815s] Removing /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli.egg-link (link to .)
+[8.816s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.816s]   warnings.warn(
+[8.816s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.817s]   warnings.warn(
+[8.818s] Invoked command in '/home/lulav/ros2_ws/build/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/ros2controlcli/prefix_override:/home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/lulav/ros2_ws/build/ros2controlcli/build
+[8.820s] Invoking command in '/home/lulav/ros2_ws/src/ros2_control/ros2controlcli': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/build/ros2controlcli/prefix_override:/home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages:/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2controlcli build --build-base /home/lulav/ros2_ws/build/ros2controlcli/build install --record /home/lulav/ros2_ws/build/ros2controlcli/install.log --single-version-externally-managed
+[9.457s] running egg_info
+[9.458s] writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+[9.459s] writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+[9.459s] writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+[9.459s] writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+[9.459s] writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+[9.464s] reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[9.466s] writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+[9.467s] running build
+[9.467s] running build_py
+[9.467s] creating /home/lulav/ros2_ws/build/ros2controlcli/build
+[9.467s] creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib
+[9.467s] creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli
+[9.467s] copying ros2controlcli/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli
+[9.468s] creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.468s] copying ros2controlcli/verb/list_hardware_components.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.468s] copying ros2controlcli/verb/unload_controller.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.468s] copying ros2controlcli/verb/list_controllers.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.468s] copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.468s] copying ros2controlcli/verb/reload_controller_libraries.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.469s] copying ros2controlcli/verb/switch_controllers.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.469s] copying ros2controlcli/verb/view_controller_chains.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.470s] copying ros2controlcli/verb/list_controller_types.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.470s] copying ros2controlcli/verb/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.470s] copying ros2controlcli/verb/load_controller.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.470s] copying ros2controlcli/verb/set_controller_state.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+[9.471s] creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[9.471s] copying ros2controlcli/command/control.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[9.471s] copying ros2controlcli/command/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+[9.471s] creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[9.472s] copying ros2controlcli/api/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+[9.473s] running install
+[9.473s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.473s]   warnings.warn(
+[9.474s] running install_lib
+[9.475s] creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[9.475s] creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.476s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.476s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.476s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.476s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.477s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.477s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.477s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.477s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.478s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.478s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.478s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+[9.487s] creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[9.487s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[9.488s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+[9.488s] creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[9.488s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+[9.488s] copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+[9.488s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+[9.489s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+[9.489s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+[9.489s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+[9.489s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+[9.489s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+[9.490s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+[9.493s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+[9.493s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+[9.493s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+[9.494s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+[9.496s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+[9.497s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+[9.497s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+[9.499s] byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+[9.499s] running install_data
+[9.501s] running install_egg_info
+[9.507s] Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.29.0-py3.10.egg-info
+[9.508s] running install_scripts
+[9.552s] writing list of installed files to '/home/lulav/ros2_ws/build/ros2controlcli/install.log'

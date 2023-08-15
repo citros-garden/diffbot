@@ -1,0 +1,110 @@
+[0.095s] Invoking command in '/home/lulav/ros2_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/steering_controllers_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/steering_controllers_library
+[0.259s] -- The CXX compiler identification is GNU 11.4.0
+[0.278s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.481s] -- Detecting CXX compile features
+[0.483s] -- Detecting CXX compile features - done
+[0.489s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.966s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.137s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.226s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[1.240s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[1.254s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[1.255s] -- BACKWARD_HAS_UNWIND=1
+[1.255s] -- BACKWARD_HAS_BACKTRACE=0
+[1.255s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[1.255s] -- BACKWARD_HAS_DW=1
+[1.255s] -- BACKWARD_HAS_BFD=0
+[1.261s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[1.262s] -- Found control_msgs: 4.4.0 (/home/lulav/ros2_ws/install/control_msgs/share/control_msgs/cmake)
+[1.346s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.362s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.389s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.202s] -- Found controller_interface: 2.29.0 (/home/lulav/ros2_ws/install/controller_interface/share/controller_interface/cmake)
+[3.526s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.531s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.751s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.806s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.923s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.945s] -- Looking for C++ include pthread.h
+[4.221s] -- Looking for C++ include pthread.h - found
+[4.222s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.523s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.526s] -- Found Threads: TRUE  
+[5.118s] -- Found generate_parameter_library: 0.3.3 (/opt/ros/humble/share/generate_parameter_library/cmake)
+[5.123s] -- Found parameter_traits: 0.3.3 (/opt/ros/humble/share/parameter_traits/cmake)
+[5.200s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.451s] -- Found realtime_tools: 2.5.0 (/home/lulav/ros2_ws/install/realtime_tools/share/realtime_tools/cmake)
+[5.572s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[5.621s] -- Found tf2: 0.25.3 (/opt/ros/humble/share/tf2/cmake)
+[5.643s] -- Found tf2_msgs: 0.25.3 (/opt/ros/humble/share/tf2_msgs/cmake)
+[5.874s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[5.892s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.896s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.896s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.119s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)
+[6.616s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[6.617s] -- Found controller_manager: 2.29.0 (/home/lulav/ros2_ws/install/controller_manager/share/controller_manager/cmake)
+[7.195s] -- Found ros2_control_test_assets: 2.29.0 (/home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[7.202s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.311s] -- The C compiler identification is GNU 11.4.0
+[7.329s] -- Detecting C compiler ABI info
+[7.557s] -- Detecting C compiler ABI info - done
+[7.584s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.584s] -- Detecting C compile features
+[7.585s] -- Detecting C compile features - done
+[7.596s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.599s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.437s] -- Configuring done
+[8.600s] -- Generating done
+[8.600s] -- Build files have been written to: /home/lulav/ros2_ws/build/steering_controllers_library
+[8.698s] Invoked command in '/home/lulav/ros2_ws/build/steering_controllers_library' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/lulav/ros2_ws/src/ros2_controllers/steering_controllers_library -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lulav/ros2_ws/install/steering_controllers_library
+[8.717s] Invoking command in '/home/lulav/ros2_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/steering_controllers_library -- -j8 -l8
+[9.875s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_py /home/lulav/ros2_ws/build/steering_controllers_library/steering_controllers_library_parameters/include//steering_controllers_library_parameters.hpp /home/lulav/ros2_ws/src/ros2_controllers/steering_controllers_library/src/steering_controllers_library.yaml `[0m
+[9.875s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[9.875s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[12.730s] [ 33%] Built target steering_controllers_library_parameters
+[12.982s] [ 44%] [32mBuilding CXX object CMakeFiles/steering_controllers_library.dir/src/steering_controllers_library.cpp.o[0m
+[13.000s] [ 55%] [32mBuilding CXX object CMakeFiles/steering_controllers_library.dir/src/steering_odometry.cpp.o[0m
+[38.731s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[39.059s] [ 66%] Built target gmock
+[72.434s] [ 77%] [32m[1mLinking CXX shared library libsteering_controllers_library.so[0m
+[75.131s] [ 77%] Built target steering_controllers_library
+[75.196s] [ 88%] [32mBuilding CXX object CMakeFiles/test_steering_controllers_library.dir/test/test_steering_controllers_library.cpp.o[0m
+[96.996s] [100%] [32m[1mLinking CXX executable test_steering_controllers_library[0m
+[99.095s] [100%] Built target test_steering_controllers_library
+[99.132s] Invoked command in '/home/lulav/ros2_ws/build/steering_controllers_library' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/lulav/ros2_ws/build/steering_controllers_library -- -j8 -l8
+[99.233s] Invoking command in '/home/lulav/ros2_ws/build/steering_controllers_library': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/steering_controllers_library
+[102.146s] -- Install configuration: ""
+[102.147s] -- Execute custom install script
+[102.147s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/include/steering_controllers_library_parameters/steering_controllers_library_parameters.hpp
+[102.147s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_controllers_library.hpp
+[102.147s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/steering_odometry.hpp
+[102.147s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/include/steering_controllers_library/steering_controllers_library/visibility_control.h
+[102.148s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.sh
+[102.148s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/environment/library_path.dsv
+[102.148s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/ament_index/resource_index/package_run_dependencies/steering_controllers_library
+[102.148s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/ament_index/resource_index/parent_prefix_path/steering_controllers_library
+[102.148s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.sh
+[102.148s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/environment/ament_prefix_path.dsv
+[102.149s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.sh
+[102.154s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/environment/path.dsv
+[102.154s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.bash
+[102.154s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.sh
+[102.154s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.zsh
+[102.154s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/local_setup.dsv
+[102.155s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/package.dsv
+[102.155s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/ament_index/resource_index/packages/steering_controllers_library
+[102.155s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_targets-extras.cmake
+[102.155s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/ament_cmake_export_dependencies-extras.cmake
+[102.155s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig.cmake
+[102.155s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/steering_controllers_libraryConfig-version.cmake
+[102.156s] -- Symlinking: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/package.xml
+[102.156s] -- Installing: /home/lulav/ros2_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so
+[102.156s] -- Set runtime path of "/home/lulav/ros2_ws/install/steering_controllers_library/lib/libsteering_controllers_library.so" to ""
+[102.156s] -- Installing: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport.cmake
+[102.156s] -- Installing: /home/lulav/ros2_ws/install/steering_controllers_library/share/steering_controllers_library/cmake/export_steering_controllers_libraryExport-noconfig.cmake
+[102.173s] Invoked command in '/home/lulav/ros2_ws/build/steering_controllers_library' returned '0': AMENT_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lulav/ros2_ws/install/controller_manager:/home/lulav/ros2_ws/install/controller_interface:/home/lulav/ros2_ws/install/hardware_interface:/home/lulav/ros2_ws/install/ros2_control_test_assets:/home/lulav/ros2_ws/install/realtime_tools:/home/lulav/ros2_ws/install/controller_manager_msgs:/home/lulav/ros2_ws/install/control_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/lulav/ros2_ws/install/controller_manager/lib:/home/lulav/ros2_ws/install/controller_interface/lib:/home/lulav/ros2_ws/install/hardware_interface/lib:/home/lulav/ros2_ws/install/realtime_tools/lib:/home/lulav/ros2_ws/install/controller_manager_msgs/lib:/home/lulav/ros2_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/lulav/ros2_ws/install/controller_manager/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/lulav/ros2_ws/install/control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/lulav/ros2_ws/build/steering_controllers_library

@@ -1,0 +1,1 @@
+/home/lulav/ros2_ws/src/mydiffbot/description/launch/view_robot.launch.py

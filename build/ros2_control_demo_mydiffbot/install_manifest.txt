@@ -1,0 +1,3 @@
+/home/lulav/ros2_ws/install/ros2_control_demo_mydiffbot/lib/libros2_control_demo_mydiffbot.so
+/home/lulav/ros2_ws/install/ros2_control_demo_mydiffbot/share/ros2_control_demo_mydiffbot/cmake/export_ros2_control_demo_mydiffbotExport.cmake
+/home/lulav/ros2_ws/install/ros2_control_demo_mydiffbot/share/ros2_control_demo_mydiffbot/cmake/export_ros2_control_demo_mydiffbotExport-noconfig.cmake

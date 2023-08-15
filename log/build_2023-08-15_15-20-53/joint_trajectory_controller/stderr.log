@@ -1,0 +1,6 @@
+gmake[1]: *** [CMakeFiles/Makefile2:379: gmock/CMakeFiles/gmock_main.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/joint_trajectory_controller.dir/build.make:299: CMakeFiles/joint_trajectory_controller.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/joint_trajectory_controller.dir/all] Interrupt
+gmake[2]: *** [gmock/CMakeFiles/gmock.dir/build.make:125: gmock/CMakeFiles/gmock.dir/depend] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:351: gmock/CMakeFiles/gmock.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

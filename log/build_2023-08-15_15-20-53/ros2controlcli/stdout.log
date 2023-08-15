@@ -1,0 +1,74 @@
+running develop
+Removing /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli.egg-link (link to .)
+running egg_info
+writing ../../../build/ros2controlcli/ros2controlcli.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros2controlcli/ros2controlcli.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros2controlcli/ros2controlcli.egg-info/entry_points.txt
+writing requirements to ../../../build/ros2controlcli/ros2controlcli.egg-info/requires.txt
+writing top-level names to ../../../build/ros2controlcli/ros2controlcli.egg-info/top_level.txt
+reading manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros2controlcli/ros2controlcli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lulav/ros2_ws/build/ros2controlcli/build
+creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib
+creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli
+copying ros2controlcli/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli
+creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_hardware_components.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/unload_controller.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_controllers.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_hardware_interfaces.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/reload_controller_libraries.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/switch_controllers.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/view_controller_chains.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/list_controller_types.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/load_controller.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+copying ros2controlcli/verb/set_controller_state.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb
+creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+copying ros2controlcli/command/control.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+copying ros2controlcli/command/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command
+creating /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+copying ros2controlcli/api/__init__.py -> /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api
+running install
+running install_lib
+creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_components.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/unload_controller.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controllers.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_hardware_interfaces.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/reload_controller_libraries.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/switch_controllers.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/view_controller_chains.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/list_controller_types.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/load_controller.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/verb/set_controller_state.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb
+creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command/control.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/command/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command
+creating /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/api/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api
+copying /home/lulav/ros2_ws/build/ros2controlcli/build/lib/ros2controlcli/__init__.py -> /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_components.py to list_hardware_components.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/unload_controller.py to unload_controller.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controllers.py to list_controllers.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_hardware_interfaces.py to list_hardware_interfaces.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/reload_controller_libraries.py to reload_controller_libraries.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/switch_controllers.py to switch_controllers.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/view_controller_chains.py to view_controller_chains.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/list_controller_types.py to list_controller_types.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/load_controller.py to load_controller.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/verb/set_controller_state.py to set_controller_state.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/control.py to control.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/command/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/api/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli/__init__.py to __init__.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/ros2controlcli/ros2controlcli.egg-info to /home/lulav/ros2_ws/install/ros2controlcli/lib/python3.10/site-packages/ros2controlcli-2.29.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lulav/ros2_ws/build/ros2controlcli/install.log'
