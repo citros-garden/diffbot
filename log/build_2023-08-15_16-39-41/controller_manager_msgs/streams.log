@@ -1,0 +1,348 @@
+[0.126s] Invoking command in '/home/lulav/ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_manager_msgs -- -j8 -l8
+[0.357s] [ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[0.371s] [ 12%] Built target controller_manager_msgs__cpp
+[0.412s] [ 12%] Built target ament_cmake_python_symlink_controller_manager_msgs
+[0.567s] [ 24%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[0.586s] [ 36%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[0.666s] [ 49%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[0.674s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[0.702s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_c
+[0.722s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[0.867s] [ 84%] Built target controller_manager_msgs
+[0.962s] [ 85%] Built target controller_manager_msgs__py
+[1.070s] [ 96%] Built target controller_manager_msgs__rosidl_generator_py
+[1.168s] [ 97%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.177s] [ 99%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[1.218s] [100%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[1.251s] running egg_info
+[1.253s] writing controller_manager_msgs.egg-info/PKG-INFO
+[1.254s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[1.254s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[1.261s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[1.264s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[1.337s] [100%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[1.427s] Invoked command in '/home/lulav/ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/controller_manager_msgs -- -j8 -l8
+[2.926s] Invoking command in '/home/lulav/ros2_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_manager_msgs
+[2.947s] -- Install configuration: ""
+[2.949s] -- Execute custom install script
+[2.949s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[2.951s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.h
+[2.951s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.h
+[2.951s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.h
+[2.952s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.h
+[2.952s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.h
+[2.952s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.h
+[2.953s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.h
+[2.953s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[2.953s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.h
+[2.953s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.h
+[2.953s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.h
+[2.954s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[2.954s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[2.954s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[2.954s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.h
+[2.955s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.h
+[2.955s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.955s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.h
+[2.955s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[2.956s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[2.956s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[2.956s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[2.956s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[2.957s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[2.957s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[2.957s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[2.957s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[2.957s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.h
+[2.958s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.h
+[2.958s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.h
+[2.958s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[2.958s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[2.958s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[2.959s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.h
+[2.959s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.h
+[2.959s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[2.959s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[2.959s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[2.960s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[2.960s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.h
+[2.960s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.h
+[2.960s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.h
+[2.960s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[2.961s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[2.961s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[2.961s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[2.962s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[2.962s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[2.962s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.h
+[2.962s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.h
+[2.962s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.h
+[2.962s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.h
+[2.963s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.h
+[2.963s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.h
+[2.963s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.h
+[2.963s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.h
+[2.964s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.h
+[2.964s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[2.965s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[2.965s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_c.h
+[2.965s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[2.965s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[2.966s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[2.966s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.966s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[2.966s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[2.967s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[2.967s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_c.h
+[2.967s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[2.967s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[2.967s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[2.967s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[2.968s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[2.968s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[2.968s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.hpp
+[2.969s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.hpp
+[2.969s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__builder.hpp
+[2.969s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp
+[2.969s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp
+[2.969s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[2.970s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[2.970s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[2.970s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__builder.hpp
+[2.970s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp
+[2.971s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp
+[2.971s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[2.971s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[2.971s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[2.971s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.hpp
+[2.972s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.hpp
+[2.972s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp
+[2.972s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[2.972s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[2.973s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[2.973s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[2.973s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[2.973s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[2.973s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[2.974s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[2.974s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[2.974s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp
+[2.974s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp
+[2.974s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp
+[2.974s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[2.975s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[2.975s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[2.975s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[2.976s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[2.976s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[2.976s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[2.976s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[2.977s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[2.977s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp
+[2.977s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp
+[2.977s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp
+[2.977s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[2.978s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[2.978s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[2.978s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[2.978s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[2.978s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[2.978s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp
+[2.979s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp
+[2.979s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp
+[2.979s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[2.980s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp
+[2.980s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[2.980s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp
+[2.980s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp
+[2.981s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp
+[2.981s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_cpp.hpp
+[2.981s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.981s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.982s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[2.982s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[2.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_cpp.hpp
+[2.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[2.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[2.983s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.984s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.984s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.984s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_c.h
+[2.984s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[2.985s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_c.h
+[2.985s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[2.985s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.985s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[2.985s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[2.986s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[2.987s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_cpp.hpp
+[2.987s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.987s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[2.988s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[2.988s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.988s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[2.989s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[2.989s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_cpp.hpp
+[2.989s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[2.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[2.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[2.990s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.991s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.991s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[2.991s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[2.992s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.29.0-py3.10.egg-info/PKG-INFO
+[2.992s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.29.0-py3.10.egg-info/SOURCES.txt
+[2.993s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.29.0-py3.10.egg-info/dependency_links.txt
+[2.993s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs-2.29.0-py3.10.egg-info/top_level.txt
+[2.994s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/__init__.py
+[3.008s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c
+[3.008s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.009s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.009s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.010s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.010s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.011s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/libcontroller_manager_msgs__rosidl_generator_py.so
+[3.011s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/__init__.py
+[3.011s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection.py
+[3.012s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_chain_connection_s.c
+[3.012s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state.py
+[3.012s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_controller_state_s.c
+[3.012s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state.py
+[3.013s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_component_state_s.c
+[3.014s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface.py
+[3.014s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg/_hardware_interface_s.c
+[3.014s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/__init__.py
+[3.014s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller.py
+[3.014s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_configure_controller_s.c
+[3.015s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types.py
+[3.016s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controller_types_s.c
+[3.016s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers.py
+[3.016s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_controllers_s.c
+[3.017s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components.py
+[3.017s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_components_s.c
+[3.017s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[3.018s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_list_hardware_interfaces_s.c
+[3.018s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller.py
+[3.019s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_load_controller_s.c
+[3.019s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[3.019s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_reload_controller_libraries_s.c
+[3.020s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state.py
+[3.020s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_set_hardware_component_state_s.c
+[3.021s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller.py
+[3.021s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_switch_controller_s.c
+[3.021s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller.py
+[3.021s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv/_unload_controller_s.c
+[3.022s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.022s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.022s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.022s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[3.022s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.idl
+[3.024s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.idl
+[3.024s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[3.024s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[3.024s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.idl
+[3.025s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[3.027s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[3.029s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[3.029s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.msg
+[3.029s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.msg
+[3.029s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[3.032s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[3.032s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Request.msg
+[3.032s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Response.msg
+[3.032s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[3.032s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[3.032s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.srv
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Request.msg
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Response.msg
+[3.033s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[3.034s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Request.msg
+[3.034s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Response.msg
+[3.034s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[3.034s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[3.034s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[3.034s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[3.035s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[3.035s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[3.035s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.srv
+[3.035s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Request.msg
+[3.035s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Response.msg
+[3.035s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[3.036s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[3.036s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[3.036s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[3.036s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[3.036s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[3.036s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[3.037s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[3.037s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[3.037s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[3.037s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[3.037s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[3.037s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[3.038s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[3.038s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[3.038s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[3.038s] -- Symlinking: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[3.050s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[3.050s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[3.050s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.051s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.051s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.051s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.052s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.052s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.052s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[3.053s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[3.053s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[3.053s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[3.053s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[3.054s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.054s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[3.054s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[3.055s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[3.055s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[3.139s] Listing '/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs'...
+[3.140s] Listing '/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/msg'...
+[3.140s] Listing '/home/lulav/ros2_ws/install/controller_manager_msgs/local/lib/python3.10/dist-packages/controller_manager_msgs/srv'...
+[3.148s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so
+[3.149s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport.cmake
+[3.149s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.149s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.149s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.150s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cppExport.cmake
+[3.150s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.150s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.151s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.151s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.151s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[3.152s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.152s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.153s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.153s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[3.153s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.153s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport.cmake
+[3.153s] -- Up-to-date: /home/lulav/ros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.161s] Invoked command in '/home/lulav/ros2_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/controller_manager_msgs

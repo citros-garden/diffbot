@@ -3,7 +3,7 @@ open terminal on the folder
 build it:
 colcon build --symlink-install
 
-to run the semulation run :
+to run the simulation run :
 
 source install/setup.bash
 

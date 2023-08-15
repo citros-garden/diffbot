@@ -1,0 +1,22 @@
+[2.386s] Invoking command in '/home/lulav/ros2_ws/build/ros2_controllers_test_nodes': PYTHONPATH=/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build --no-deps install_data
+[2.979s] running develop
+[2.980s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.980s]   warnings.warn(
+[2.983s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.983s]   warnings.warn(
+[3.391s] running egg_info
+[3.391s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[3.391s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[3.392s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[3.392s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[3.392s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[3.395s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.397s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.399s] running build_ext
+[3.400s] Creating /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[3.403s] Installing publisher_forward_position_controller script to /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.403s] Installing publisher_joint_trajectory_controller script to /home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.403s] 
+[3.404s] Installed /home/lulav/ros2_ws/build/ros2_controllers_test_nodes
+[3.404s] running install_data
+[3.460s] Invoked command in '/home/lulav/ros2_ws/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/lulav/ros2_ws/build/ros2_controllers_test_nodes/prefix_override:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lulav/ros2_ws/build/ros2_controllers_test_nodes/build --no-deps install_data

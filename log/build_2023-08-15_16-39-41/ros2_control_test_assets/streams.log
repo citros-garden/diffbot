@@ -1,0 +1,24 @@
+[0.126s] Invoking command in '/home/lulav/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.381s] Invoked command in '/home/lulav/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/lulav/ros2_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.520s] Invoking command in '/home/lulav/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/ros2_control_test_assets
+[1.549s] -- Install configuration: ""
+[1.549s] -- Execute custom install script
+[1.549s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.549s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.550s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.550s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.550s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.551s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.551s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.551s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.552s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.552s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.553s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.553s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.553s] -- Symlinking: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.580s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.581s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.581s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.582s] -- Up-to-date symlink: /home/lulav/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.593s] Invoked command in '/home/lulav/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lulav/ros2_ws/install/rqt_joint_trajectory_controller:/home/lulav/ros2_ws/install/rqt_controller_manager:/home/lulav/ros2_ws/install/ros2controlcli:/home/lulav/ros2_ws/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/lulav/ros2_ws/build/ros2_control_test_assets
