@@ -40,7 +40,7 @@ source install/setup.bash
 
 then:
 
-ros2 launch ros2_control_demo_example2 diffbot.launch.py
+ros2 launch ros2_control_demo_example_2 diffbot.launch.py 
 
 and everything should come up
 
@@ -49,6 +49,6 @@ then on diffrent terminal:
 
 also do:
 source install/setup.bash
-and then run:
+and then run:r
 
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diffbot_base_controller/cmd_vel_unstamped
