@@ -57,7 +57,4 @@ RUN cd /home/diffbot/src \
     apt-get autoremove -y -qq && \
     rm -rf /var/lib/apt/lists/*
 
-# RUN cd /home/diffbot/ \
-#   && . /opt/ros/${ROS_DISTRO}/setup.sh \
-#   && colcon build --merge-install --symlink-install
 
