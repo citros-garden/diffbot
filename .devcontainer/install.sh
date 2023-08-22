@@ -3,15 +3,18 @@ WORKSPACE_DIR="/workspaces/diffbot/"
 
 cd $WORKSPACE_DIR
 
-. /opt/ros/"${ROS_DISTRO}"/setup.sh
-. /home/ros2_ws/install/setup.sh
-exec "$@"
+vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
+rosdep update --rosdistro=$ROS_DISTRO
+sudo apt-get update
 
-# colcon build --symlink-install
-# source install/setup.bash
+rosdep install --from-paths src --ignore-src -r -y
+
+echo "source /opt/ros/${ROS_DISTRO}/setup.sh" >> ~/.bashrc
+colcon build --symlink-install
+
+ echo "source /workspaces/diffbot/install/setup.bash" >> ~/.bashrc
 
 
-# rosdep install --from-paths src --ignore-src -r -y
 
 
 echo "

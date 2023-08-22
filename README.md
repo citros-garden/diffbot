@@ -40,7 +40,7 @@ source install/setup.bash
 
 then:
 
-ros2 launch ros2_control_demo_mydiffbot diffbot.launch.py
+ros2 launch ros2_control_demo_example2 diffbot.launch.py
 
 and everything should come up
 
