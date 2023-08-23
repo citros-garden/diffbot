@@ -9,7 +9,7 @@ Write a few lines just to explain the project.
 
 2. open the repository in the VScode:
 	```sh
-	cd ~/soft_landing
+	cd ~/diffbot
 	code .
 	```
 3. open the repository in the container from VScode with `reopen in container` option.
