@@ -12,10 +12,6 @@ sudo apt-get update
 
 rosdep install --from-paths src --ignore-src -r -y
 
-
-
-git clone git@github.com:ros2/teleop_twist_keyboard.git
-cd teleop_twist_keyboard
 git submodule update --init --recursive
 
 colcon build --symlink-install
