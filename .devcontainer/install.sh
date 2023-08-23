@@ -2,7 +2,7 @@
 WORKSPACE_DIR="/workspaces/diffbot/"
 
 cd $WORKSPACE_DIR
-
+git submodule update --init --recursive
 vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
 rosdep update --rosdistro=$ROS_DISTRO
 sudo apt-get update
