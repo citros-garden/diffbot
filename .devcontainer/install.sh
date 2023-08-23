@@ -15,7 +15,9 @@ colcon build --symlink-install
 echo "source /workspaces/diffbot/install/setup.bash" >> ~/.bashrc
 
 sudo apt update
-# git clone git@github.com:ros2/teleop_twist_keyboard.git
+git clone git@github.com:ros2/teleop_twist_keyboard.git
+cd teleop_twist_keyboard
+git submodule update --init --recursive
 
 
 
