@@ -4,7 +4,7 @@ Write a few lines just to explain the project.
 # Installation 🛫
 1. Clone the repository:
    ```sh
-    git@github.com:citros-garden/diffbot.git
+    git clone git@github.com:citros-garden/diffbot.git
    ```
 
 2. open the repository in the VScode:
