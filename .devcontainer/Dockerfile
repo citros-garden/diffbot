@@ -45,9 +45,9 @@ RUN apt-get update \
     apt-get autoremove -y -qq && \
     rm -rf /var/lib/apt/lists/*
 
-COPY . /home/workspaces/diffbot/src/ros2_control
+COPY . /home/diffbot/src/ros2_control
 
-RUN cd /home/workspaces/diffbot/src \
+RUN cd /home/diffbot/src \
     && rosdep update --rosdistro ${ROS_DISTRO}  \
     && apt-get update \
     && rosdep install --from-paths ./ -i -y --rosdistro ${ROS_DISTRO} \
@@ -57,7 +57,4 @@ RUN cd /home/workspaces/diffbot/src \
     apt-get autoremove -y -qq && \
     rm -rf /var/lib/apt/lists/*
 
-RUN cd /home/workspaces/diffbot/ \
-  && . /opt/ros/${ROS_DISTRO}/setup.sh \
-  && colcon build --merge-install --symlink-install
 
