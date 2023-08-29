@@ -11,7 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
+import os
+from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, RegisterEventHandler
 from launch.conditions import IfCondition
@@ -23,6 +24,7 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
+    
     # Declare arguments
     declared_arguments = []
     declared_arguments.append(
@@ -32,6 +34,12 @@ def generate_launch_description():
             description="Start RViz2 automatically with this launch file.",
         )
     )
+    
+    # controller_config = os.path.join(
+    #         get_package_share_directory('controller'),
+    #         'config',
+    #         'pram.yaml'
+    #         )
 
     # Initialize Arguments
     gui = LaunchConfiguration("gui")
@@ -55,6 +63,10 @@ def generate_launch_description():
             "diffbot_controllers.yaml",
         ]
     )
+    controller_config = PathJoinSubstitution(
+        [FindPackageShare("ros2_control_demo_example_2"), "config", "pram.yaml"]
+    )
+    
     rviz_config_file = PathJoinSubstitution(
         [FindPackageShare("ros2_control_demo_description"), "diffbot/rviz", "diffbot.rviz"]
     )
@@ -95,6 +107,12 @@ def generate_launch_description():
         arguments=["diffbot_base_controller", "--controller-manager", "/controller_manager"],
     )
 
+    controller=Node(
+        package = 'controller',
+        name = 'controller',
+        executable = 'controller',
+        parameters = [controller_config]
+    )
     # Delay rviz start after `joint_state_broadcaster`
     delay_rviz_after_joint_state_broadcaster_spawner = RegisterEventHandler(
         event_handler=OnProcessExit(
@@ -117,6 +135,8 @@ def generate_launch_description():
         joint_state_broadcaster_spawner,
         delay_rviz_after_joint_state_broadcaster_spawner,
         delay_robot_controller_spawner_after_joint_state_broadcaster_spawner,
+        controller,
     ]
 
+    
     return LaunchDescription(declared_arguments + nodes)
