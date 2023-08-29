@@ -35,12 +35,6 @@ def generate_launch_description():
         )
     )
     
-    # controller_config = os.path.join(
-    #         get_package_share_directory('controller'),
-    #         'config',
-    #         'pram.yaml'
-    #         )
-
     # Initialize Arguments
     gui = LaunchConfiguration("gui")
 
@@ -64,7 +58,7 @@ def generate_launch_description():
         ]
     )
     controller_config = PathJoinSubstitution(
-        [FindPackageShare("ros2_control_demo_example_2"), "config", "pram.yaml"]
+        [FindPackageShare("ros2_control_demo_example_2"), "config", "diffbot_controllers.yaml"]
     )
     
     rviz_config_file = PathJoinSubstitution(

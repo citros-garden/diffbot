@@ -11,9 +11,6 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'ros2_control_demos'), glob('example_2/bringup/launch/*.launch.py'))
-        (os.path.join('share', package_name, 'config'), glob('controller/config/*.yaml')),
-        
     ],
     install_requires=['setuptools'],
     zip_safe=True,

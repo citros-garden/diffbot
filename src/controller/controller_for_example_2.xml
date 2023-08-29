@@ -1,7 +1,0 @@
-<library path="controller_for_example_2">
-  <class name="controller_for_example_2/DiffBotSystemHardware">
-    <description>
-      The ros2_controller on the movement
-    </description>
-  </class>
-</library>
