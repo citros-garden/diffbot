@@ -33,7 +33,7 @@ class controller(Node):
         self.angular_z = self.get_parameter('angular_z').get_parameter_value().double_value
         self.dt = self.get_parameter('dt').get_parameter_value().double_value
 
-        self.timer = self.create_timer(1.0, self.step)
+        self.timer = self.create_timer(self.dt, self.step)
 
     
     def match(self):

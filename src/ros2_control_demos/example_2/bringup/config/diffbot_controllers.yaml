@@ -57,12 +57,3 @@ diffbot_base_controller:
     angular.z.min_jerk: 0.0
 
 
-controller:
-  ros__parameters:
-    dt: 0.01
-    linear_x: 0.7
-    linear_y: 0.0
-    linear_z: 0.0
-    angular_x: 0.0
-    angular_y: 0.0
-    angular_z: 1.0 
