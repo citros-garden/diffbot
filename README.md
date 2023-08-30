@@ -28,6 +28,12 @@ Run the launch file with the simulation on rviz:
 ```sh
 ros2 launch ros2_control_demo_example_2 diffbot.launch.py 
 ```
+
+if you want to controll it by yourself then run:
+
+```sh
+ros2 launch ros2_control_demo_example_2 diffbot_with_keyboard.launch.py 
+```
 Open a new terminal window and then run the following command:
 
 ```sh
