@@ -1,0 +1,22 @@
+[1.920s] Invoking command in '/workspaces/diffbot/ros2_ws/teleop_twist_keyboard': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/prefix_override:/workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build install --record /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[2.580s] running egg_info
+[2.582s] writing ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[2.582s] writing dependency_links to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[2.583s] writing entry points to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[2.593s] writing requirements to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[2.593s] writing top-level names to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[2.596s] reading manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.600s] adding license file 'LICENSE'
+[2.601s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.602s] running build
+[2.602s] running build_py
+[2.602s] running install
+[2.602s] running install_lib
+[2.608s] running install_data
+[2.608s] running install_egg_info
+[2.611s] removing '/workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info' (and everything under it)
+[2.611s] Copying ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info
+[2.614s] running install_scripts
+[2.675s] Installing teleop_twist_keyboard script to /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[2.675s] writing list of installed files to '/workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/install.log'
+[2.770s] Invoked command in '/workspaces/diffbot/ros2_ws/teleop_twist_keyboard' returned '0': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/prefix_override:/workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build install --record /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

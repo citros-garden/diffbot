@@ -1,0 +1,21 @@
+[3.186s] Invoking command in '/workspaces/diffbot/ros2_ws/src/controller': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/controller/prefix_override:/workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /workspaces/diffbot/ros2_ws/build/controller/build install --record /workspaces/diffbot/ros2_ws/build/controller/install.log --single-version-externally-managed
+[3.873s] running egg_info
+[3.875s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[3.875s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[3.876s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[3.880s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[3.880s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[3.881s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.882s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.884s] running build
+[3.885s] running build_py
+[3.885s] running install
+[3.890s] running install_lib
+[3.890s] running install_data
+[3.890s] running install_egg_info
+[3.897s] removing '/workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.897s] Copying ../../build/controller/controller.egg-info to /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[3.898s] running install_scripts
+[3.979s] Installing controller script to /workspaces/diffbot/ros2_ws/install/controller/lib/controller
+[3.980s] writing list of installed files to '/workspaces/diffbot/ros2_ws/build/controller/install.log'
+[4.056s] Invoked command in '/workspaces/diffbot/ros2_ws/src/controller' returned '0': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/controller/prefix_override:/workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /workspaces/diffbot/ros2_ws/build/controller/build install --record /workspaces/diffbot/ros2_ws/build/controller/install.log --single-version-externally-managed

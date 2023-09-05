@@ -1,0 +1,16 @@
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/launch/launch_diffbot.py
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/ament_index/resource_index/package_run_dependencies/diffbot_bringup
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/ament_index/resource_index/parent_prefix_path/diffbot_bringup
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/environment/ament_prefix_path.sh
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/environment/ament_prefix_path.dsv
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/environment/path.sh
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/environment/path.dsv
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/local_setup.bash
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/local_setup.sh
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/local_setup.zsh
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/local_setup.dsv
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/package.dsv
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/ament_index/resource_index/packages/diffbot_bringup
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/cmake/diffbot_bringupConfig.cmake
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/cmake/diffbot_bringupConfig-version.cmake
+/workspaces/diffbot/ros2_ws/install/diffbot_bringup/share/diffbot_bringup/package.xml

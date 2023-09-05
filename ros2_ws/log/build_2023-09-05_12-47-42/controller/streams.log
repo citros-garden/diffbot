@@ -1,0 +1,42 @@
+[2.839s] Invoking command in '/workspaces/diffbot/ros2_ws/src/controller': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/controller/prefix_override:/workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /workspaces/diffbot/ros2_ws/build/controller/build install --record /workspaces/diffbot/ros2_ws/build/controller/install.log --single-version-externally-managed
+[3.513s] running egg_info
+[3.514s] creating ../../build/controller/controller.egg-info
+[3.515s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[3.515s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[3.516s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[3.516s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[3.517s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[3.517s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.521s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.523s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[3.523s] running build
+[3.523s] running build_py
+[3.524s] creating /workspaces/diffbot/ros2_ws/build/controller/build
+[3.524s] creating /workspaces/diffbot/ros2_ws/build/controller/build/lib
+[3.524s] creating /workspaces/diffbot/ros2_ws/build/controller/build/lib/controller
+[3.524s] copying controller/controller.py -> /workspaces/diffbot/ros2_ws/build/controller/build/lib/controller
+[3.525s] copying controller/__init__.py -> /workspaces/diffbot/ros2_ws/build/controller/build/lib/controller
+[3.525s] running install
+[3.525s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.525s]   warnings.warn(
+[3.526s] running install_lib
+[3.527s] creating /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller
+[3.528s] copying /workspaces/diffbot/ros2_ws/build/controller/build/lib/controller/controller.py -> /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller
+[3.528s] copying /workspaces/diffbot/ros2_ws/build/controller/build/lib/controller/__init__.py -> /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller
+[3.530s] byte-compiling /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller/controller.py to controller.cpython-310.pyc
+[3.532s] byte-compiling /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller/__init__.py to __init__.cpython-310.pyc
+[3.532s] running install_data
+[3.533s] creating /workspaces/diffbot/ros2_ws/install/controller/share/ament_index
+[3.533s] creating /workspaces/diffbot/ros2_ws/install/controller/share/ament_index/resource_index
+[3.533s] creating /workspaces/diffbot/ros2_ws/install/controller/share/ament_index/resource_index/packages
+[3.533s] copying resource/controller -> /workspaces/diffbot/ros2_ws/install/controller/share/ament_index/resource_index/packages
+[3.534s] copying package.xml -> /workspaces/diffbot/ros2_ws/install/controller/share/controller
+[3.534s] creating /workspaces/diffbot/ros2_ws/install/controller/share/controller/launch
+[3.534s] creating /workspaces/diffbot/ros2_ws/install/controller/share/controller/config
+[3.534s] copying config/param.yaml -> /workspaces/diffbot/ros2_ws/install/controller/share/controller/config
+[3.534s] running install_egg_info
+[3.540s] Copying ../../build/controller/controller.egg-info to /workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages/controller-0.0.0-py3.10.egg-info
+[3.542s] running install_scripts
+[3.601s] Installing controller script to /workspaces/diffbot/ros2_ws/install/controller/lib/controller
+[3.602s] writing list of installed files to '/workspaces/diffbot/ros2_ws/build/controller/install.log'
+[4.014s] Invoked command in '/workspaces/diffbot/ros2_ws/src/controller' returned '0': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/controller/prefix_override:/workspaces/diffbot/ros2_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /workspaces/diffbot/ros2_ws/build/controller/build install --record /workspaces/diffbot/ros2_ws/build/controller/install.log --single-version-externally-managed

@@ -4,23 +4,22 @@ WORKSPACE_DIR="/workspaces/diffbot/"
 export ROS_DISTRO="humble"
 source /opt/ros/${ROS_DISTRO}/setup.sh
 
-cd $WORKSPACE_DIR
-
+cd $WORKSPACE_DIR/ros2_ws/
 vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
 rosdep update --rosdistro=$ROS_DISTRO
 sudo apt-get update
-
 rosdep install --from-paths src --ignore-src -r -y
 
 git clone https://github.com/ros2/teleop_twist_keyboard.git
 cd teleop_twist_keyboard
 git submodule update --init --recursive
 
-cd $WORKSPACE_DIR
+cd ..
+. /opt/ros/${ROS_DISTRO}/setup.sh
 colcon build --symlink-install
 
 echo "source /opt/ros/${ROS_DISTRO}/setup.sh" >> ~/.bashrc
-echo "source /workspaces/diffbot/install/setup.bash" >> ~/.bashrc
+echo "source /workspaces/diffbot/ros2_ws/install/setup.bash" >> ~/.bashrc
 
 
 

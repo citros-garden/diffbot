@@ -1,0 +1,25 @@
+[0.124s] Invoking command in '/workspaces/diffbot/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /workspaces/diffbot/ros2_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.525s] Invoked command in '/workspaces/diffbot/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /workspaces/diffbot/ros2_ws/build/ros2_control_test_assets -- -j8 -l8
+[1.782s] Invoking command in '/workspaces/diffbot/ros2_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /workspaces/diffbot/ros2_ws/build/ros2_control_test_assets
+[1.822s] -- Install configuration: ""
+[1.822s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/include
+[1.822s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets
+[1.823s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/components_urdfs.hpp
+[1.823s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/include/ros2_control_test_assets/descriptions.hpp
+[1.823s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[1.823s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[1.823s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[1.823s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[1.824s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[1.824s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[1.824s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[1.824s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[1.824s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[1.825s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[1.825s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[1.825s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[1.825s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.825s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[1.826s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[1.826s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[1.886s] Invoked command in '/workspaces/diffbot/ros2_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /workspaces/diffbot/ros2_ws/build/ros2_control_test_assets

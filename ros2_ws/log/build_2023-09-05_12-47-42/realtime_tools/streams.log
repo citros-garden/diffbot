@@ -1,0 +1,124 @@
+[0.108s] Invoking command in '/workspaces/diffbot/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake /workspaces/diffbot/ros2_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/workspaces/diffbot/ros2_ws/install/realtime_tools
+[1.604s] -- The CXX compiler identification is GNU 11.4.0
+[1.604s] -- Detecting CXX compiler ABI info
+[1.604s] -- Detecting CXX compiler ABI info - done
+[1.604s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.605s] -- Detecting CXX compile features
+[1.605s] -- Detecting CXX compile features - done
+[1.605s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.605s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.605s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/share/rclcpp/cmake)
+[1.647s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.666s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.691s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.034s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.048s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.707s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.831s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.054s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.089s] -- Looking for C++ include pthread.h
+[3.521s] -- Looking for C++ include pthread.h - found
+[3.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.894s] -- Found Threads: TRUE  
+[4.472s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.813s] -- Found ament_cmake_gmock: 1.3.5 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[4.819s] -- Found test_msgs: 1.2.1 (/opt/ros/humble/share/test_msgs/cmake)
+[5.046s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.188s] -- The C compiler identification is GNU 11.4.0
+[5.218s] -- Detecting C compiler ABI info
+[5.503s] -- Detecting C compiler ABI info - done
+[5.553s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.553s] -- Detecting C compile features
+[5.553s] -- Detecting C compile features - done
+[5.564s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[5.566s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.757s] -- Configuring done
+[5.868s] -- Generating done
+[5.876s] -- Build files have been written to: /workspaces/diffbot/ros2_ws/build/realtime_tools
+[5.913s] Invoked command in '/workspaces/diffbot/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake /workspaces/diffbot/ros2_ws/src/realtime_tools -DCMAKE_INSTALL_PREFIX=/workspaces/diffbot/ros2_ws/install/realtime_tools
+[5.914s] Invoking command in '/workspaces/diffbot/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /workspaces/diffbot/ros2_ws/build/realtime_tools -- -j8 -l8
+[6.135s] [  4%] [32mBuilding CXX object CMakeFiles/thread_priority.dir/src/thread_priority.cpp.o[0m
+[6.190s] [  9%] [32mBuilding CXX object CMakeFiles/realtime_tools.dir/src/realtime_clock.cpp.o[0m
+[6.226s] [ 14%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.229s] [ 19%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[6.238s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[7.656s] [ 28%] [32m[1mLinking CXX shared library libthread_priority.so[0m
+[8.052s] [ 28%] Built target thread_priority
+[10.061s] [ 33%] [32m[1mLinking CXX shared library librealtime_tools.so[0m
+[10.627s] [ 33%] Built target realtime_tools
+[12.421s] [ 38%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[12.807s] [ 38%] Built target gmock_main
+[21.702s] [ 42%] [32m[1mLinking CXX static library libgmock.a[0m
+[22.194s] [ 42%] Built target gmock
+[22.478s] [ 47%] [32mBuilding CXX object CMakeFiles/realtime_box_tests.dir/test/realtime_box_tests.cpp.o[0m
+[22.478s] [ 52%] [32mBuilding CXX object CMakeFiles/realtime_buffer_tests.dir/test/realtime_buffer_tests.cpp.o[0m
+[22.503s] [ 57%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests_non_polling.dir/test/realtime_publisher_tests_non_polling.cpp.o[0m
+[22.532s] [ 61%] [32mBuilding CXX object CMakeFiles/realtime_clock_tests.dir/test/realtime_clock_tests.cpp.o[0m
+[22.567s] [ 66%] [32mBuilding CXX object CMakeFiles/realtime_server_goal_handle_tests.dir/test/realtime_server_goal_handle_tests.cpp.o[0m
+[22.633s] [ 71%] [32mBuilding CXX object CMakeFiles/realtime_publisher_tests.dir/test/realtime_publisher_tests.cpp.o[0m
+[30.930s] [ 76%] [32m[1mLinking CXX executable realtime_buffer_tests[0m
+[32.374s] [ 76%] Built target realtime_buffer_tests
+[33.222s] [ 80%] [32m[1mLinking CXX executable realtime_box_tests[0m
+[33.883s] [ 80%] Built target realtime_box_tests
+[39.957s] [ 85%] [32m[1mLinking CXX executable realtime_clock_tests[0m
+[41.120s] [ 85%] Built target realtime_clock_tests
+[41.438s] [01m[K/workspaces/diffbot/ros2_ws/src/realtime_tools/test/realtime_server_goal_handle_tests.cpp:[m[K In function ‘[01m[Kstd::shared_ptr<rclcpp_action::ClientGoalHandle<test_msgs::action::Fibonacci> > send_goal(rclcpp::Node::SharedPtr, std::shared_ptr<rclcpp_action::Client<test_msgs::action::Fibonacci> >, const string&, ActionClientCallbacks&)[m[K’:
+[41.439s] [01m[K/workspaces/diffbot/ros2_ws/src/realtime_tools/test/realtime_server_goal_handle_tests.cpp:127:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kserver_name[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[41.439s]   127 |   [01;35m[Kconst std::string & server_name[m[K, ActionClientCallbacks & client_callbacks)
+[41.440s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[44.009s] In file included from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[44.009s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock-actions.h:51[m[K,
+[44.009s]                  from [01m[K/opt/ros/humble/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[44.009s]                  from [01m[K/workspaces/diffbot/ros2_ws/src/realtime_tools/test/realtime_server_goal_handle_tests.cpp:29[m[K:
+[44.010s] /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int][m[K’:
+[44.010s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1554:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int; typename std::enable_if<((! std::is_integral<_Tp>::value) || (! std::is_pointer<_Dp>::value))>::type* <anonymous> = 0][m[K’
+[44.010s] [01m[K/workspaces/diffbot/ros2_ws/src/realtime_tools/test/realtime_server_goal_handle_tests.cpp:203:3:[m[K   required from here
+[44.010s] [01m[K/opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h:1527:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kconst long unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[44.010s]  1527 |   if ([01;35m[Klhs == rhs[m[K) {
+[44.010s]       |       [01;35m[K~~~~^~~~~~[m[K
+[54.258s] [ 90%] [32m[1mLinking CXX executable realtime_server_goal_handle_tests[0m
+[55.420s] [ 90%] Built target realtime_server_goal_handle_tests
+[62.227s] [ 95%] [32m[1mLinking CXX executable realtime_publisher_tests[0m
+[62.876s] [100%] [32m[1mLinking CXX executable realtime_publisher_tests_non_polling[0m
+[63.654s] [100%] Built target realtime_publisher_tests
+[64.267s] [100%] Built target realtime_publisher_tests_non_polling
+[64.289s] Invoked command in '/workspaces/diffbot/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /workspaces/diffbot/ros2_ws/build/realtime_tools -- -j8 -l8
+[64.492s] Invoking command in '/workspaces/diffbot/ros2_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /workspaces/diffbot/ros2_ws/build/realtime_tools
+[64.512s] -- Install configuration: ""
+[64.512s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools
+[64.516s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools
+[64.516s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_clock.h
+[64.517s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/thread_priority.hpp
+[64.517s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_buffer.h
+[64.517s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_box.h
+[64.517s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_server_goal_handle.h
+[64.517s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/include/realtime_tools/realtime_tools/realtime_publisher.h
+[64.517s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/lib/librealtime_tools.so
+[64.517s] -- Set runtime path of "/workspaces/diffbot/ros2_ws/install/realtime_tools/lib/librealtime_tools.so" to ""
+[64.518s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/lib/libthread_priority.so
+[64.518s] -- Set runtime path of "/workspaces/diffbot/ros2_ws/install/realtime_tools/lib/libthread_priority.so" to ""
+[64.518s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+[64.518s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+[64.518s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+[64.518s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+[64.518s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+[64.519s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+[64.519s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+[64.519s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+[64.519s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+[64.519s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+[64.519s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+[64.520s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+[64.520s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/package.dsv
+[64.520s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+[64.521s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport.cmake
+[64.522s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/export_realtime_toolsExport-noconfig.cmake
+[64.522s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_targets-extras.cmake
+[64.522s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.522s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+[64.522s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+[64.522s] -- Installing: /workspaces/diffbot/ros2_ws/install/realtime_tools/share/realtime_tools/package.xml
+[64.535s] Invoked command in '/workspaces/diffbot/ros2_ws/build/realtime_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /workspaces/diffbot/ros2_ws/build/realtime_tools

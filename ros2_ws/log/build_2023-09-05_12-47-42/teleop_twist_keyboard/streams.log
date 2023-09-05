@@ -1,0 +1,35 @@
+[1.783s] Invoking command in '/workspaces/diffbot/ros2_ws/teleop_twist_keyboard': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/prefix_override:/workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build install --record /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[2.298s] running egg_info
+[2.299s] creating ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[2.303s] writing ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[2.304s] writing dependency_links to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[2.304s] writing entry points to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[2.304s] writing requirements to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[2.304s] writing top-level names to ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[2.305s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.309s] reading manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.309s] adding license file 'LICENSE'
+[2.311s] writing manifest file '../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[2.311s] running build
+[2.312s] running build_py
+[2.312s] creating /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build
+[2.312s] creating /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build/lib
+[2.312s] copying teleop_twist_keyboard.py -> /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build/lib
+[2.312s] running install
+[2.313s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.313s]   warnings.warn(
+[2.313s] running install_lib
+[2.315s] copying /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[2.316s] byte-compiling /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[2.322s] running install_data
+[2.324s] creating /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/share/ament_index
+[2.324s] creating /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[2.325s] creating /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[2.325s] copying resource/teleop_twist_keyboard -> /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[2.325s] copying package.xml -> /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[2.325s] running install_egg_info
+[2.333s] Copying ../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.3.2-py3.10.egg-info
+[2.334s] running install_scripts
+[2.388s] Installing teleop_twist_keyboard script to /workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[2.390s] writing list of installed files to '/workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/install.log'
+[2.443s] Invoked command in '/workspaces/diffbot/ros2_ws/teleop_twist_keyboard' returned '0': PYTHONPATH=/workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/prefix_override:/workspaces/diffbot/ros2_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/teleop_twist_keyboard build --build-base /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/build install --record /workspaces/diffbot/ros2_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

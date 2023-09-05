@@ -1,0 +1,26 @@
+[0.126s] Invoking command in '/workspaces/diffbot/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /workspaces/diffbot/ros2_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.815s] Invoked command in '/workspaces/diffbot/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --build /workspaces/diffbot/ros2_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.952s] Invoking command in '/workspaces/diffbot/ros2_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /workspaces/diffbot/ros2_ws/build/ros2_control_demo_description
+[1.978s] -- Install configuration: ""
+[1.978s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf
+[1.978s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[1.979s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[1.979s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz
+[1.979s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[1.980s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[1.980s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[1.980s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[1.980s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[1.988s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[1.989s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[1.989s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[1.989s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[1.989s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[1.989s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[1.989s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[2.018s] -- Installing: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[2.018s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[2.018s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[2.018s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[2.018s] -- Up-to-date: /workspaces/diffbot/ros2_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[2.019s] Invoked command in '/workspaces/diffbot/ros2_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/diffbot/ros2_ws/install/rqt_controller_manager:/workspaces/diffbot/ros2_ws/install/ros2controlcli:/workspaces/diffbot/ros2_ws/install/ros2_controllers_test_nodes:/workspaces/diffbot/ros2_ws/install/controller:/opt/ros/humble /usr/bin/cmake --install /workspaces/diffbot/ros2_ws/build/ros2_control_demo_description
