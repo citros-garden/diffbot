@@ -1,2 +1,0 @@
-# Hashes of file build rules.
-03cf59813805ebc2e7042e2e18d4d6f4 CMakeFiles/ros2_control_test_assets_uninstall
