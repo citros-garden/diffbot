@@ -23,16 +23,31 @@ source install/local_setup.bash
 ```
 
 # Run 🚀
-Run the launch file:
+Run the launch file with the simulation on rviz:
 
 ```sh
 ros2 launch ros2_control_demo_example_2 diffbot.launch.py 
+```
+
+if you want to controll it by yourself then run:
+
+```sh
+ros2 launch ros2_control_demo_example_2 diffbot_with_keyboard.launch.py 
 ```
 Open a new terminal window and then run the following command:
 
 ```sh
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diffbot_base_controller/cmd_vel_unstamped
 ```
+
+Run the launch file without the simulation:
+
+```sh
+ros2 launch diffbot_bringup launch_diffbot.py
+```
+
+
+
 Check if the hardware interface loaded properly, by opening another terminal and executing
 
 ```sh
