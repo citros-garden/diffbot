@@ -5,16 +5,16 @@ export ROS_DISTRO="humble"
 source /opt/ros/${ROS_DISTRO}/setup.sh
 
 cd $WORKSPACE_DIR/ros2_ws/
-vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
-rosdep update --rosdistro=$ROS_DISTRO
-sudo apt-get update
-rosdep install --from-paths src --ignore-src -r -y
+# vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
+# rosdep update --rosdistro=$ROS_DISTRO
+# sudo apt-get update
+# rosdep install --from-paths src --ignore-src -r -y
 
-git clone https://github.com/ros2/teleop_twist_keyboard.git
-cd teleop_twist_keyboard
-git submodule update --init --recursive
+# git clone https://github.com/ros2/teleop_twist_keyboard.git
+# cd teleop_twist_keyboard
+# git submodule update --init --recursive
 
-cd ..
+# cd ..
 . /opt/ros/${ROS_DISTRO}/setup.sh
 colcon build --symlink-install
 

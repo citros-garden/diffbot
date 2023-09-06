@@ -40,12 +40,6 @@ Open a new terminal window and then run the following command:
 ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diffbot_base_controller/cmd_vel_unstamped
 ```
 
-Run the launch file without the simulation:
-
-```sh
-ros2 launch diffbot_bringup launch_diffbot.py
-```
-
 
 
 Check if the hardware interface loaded properly, by opening another terminal and executing

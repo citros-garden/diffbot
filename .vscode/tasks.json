@@ -18,7 +18,7 @@
         {
             "label": "ros2-build",
             "type": "shell",
-            "command": "cd /workspaces/diffbot/ros2_ws && colcon build",
+            "command": "cd ros2_ws && colcon build",
             "problemMatcher": [],
             "presentation": {
                 "reveal": "silent",
@@ -29,7 +29,7 @@
         {
             "label": "launch",
             "type": "shell",
-            "command": "source ros2_ws/install/local_setup.bash && ros2 launch diffbot_bringup launch_diffbot.py",
+            "command": "cd ros2_ws && source install/local_setup.bash && ros2 launch ros2_control_demo_example_2 diffbot.launch.py",
             "problemMatcher": [],
             "dependsOn": ["build"]
         },

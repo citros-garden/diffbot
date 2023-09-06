@@ -43,7 +43,11 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE "ROS2_CONTROL_DEMO_EXAMPLE_2_
 # Export hardware plugins
 pluginlib_export_plugin_description_file(hardware_interface ros2_control_demo_example_2.xml)
 
+
+# add_executable(controller_manager)
+
 # INSTALL
+
 install(
   DIRECTORY hardware/include/
   DESTINATION include/ros2_control_demo_example_2
@@ -66,6 +70,7 @@ install(TARGETS ros2_control_demo_example_2
 if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)
 endif()
+
 
 ## EXPORTS
 ament_export_targets(export_ros2_control_demo_example_2 HAS_LIBRARY_TARGET)

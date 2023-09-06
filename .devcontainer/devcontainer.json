@@ -13,8 +13,7 @@
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",
 		"--security-opt=apparmor:unconfined",
-		"--volume=/tmp/.X11-unix:/tmp/.X11-unix",
-		"--volume=/mnt/wslg:/mnt/wslg"
+		"--volume=/tmp/.X11-unix:/tmp/.X11-unix"
 	],
 	"containerEnv": {
 		"DISPLAY": "${localEnv:DISPLAY}", // Needed for GUI try ":0" for windows
@@ -38,7 +37,10 @@
 				"twxs.cmake",
 				"yzhang.markdown-all-in-one",
 				"zachflower.uncrustify",
-				"betwo.b2-catkin-tools"
+				"betwo.b2-catkin-tools",
+				"eamodio.gitlens",
+				"Codeium.codeium",
+				"ms-iot.vscode-ros"
 			]
 		}
 	}
