@@ -18,6 +18,11 @@ RUN groupadd --gid $USER_GID $USERNAME \
 
 ENV DEBIAN_FRONTEND noninteractive
 
+RUN apt-get update && apt-get install -y \
+  python3-pip 
+
+RUN pip install setuptools==58.2.0
+
 RUN apt-get update \
     && apt-get upgrade -y \
     && \
