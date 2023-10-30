@@ -15,7 +15,7 @@ Write a few lines just to explain the project.
 3. open the repository in the container from VScode with `reopen in container` option.
 
 # Build :tractor:
-source and build:(no need?)
+source and build:
 ```sh
 . /opt/ros/humble/setup.sh
 colcon build --symlink-install
@@ -27,17 +27,6 @@ Run the launch file with the simulation on rviz:
 
 ```sh
 ros2 launch ros2_control_demo_example_2 diffbot.launch.py 
-```
-
-if you want to controll it by yourself then run:
-
-```sh
-ros2 launch ros2_control_demo_example_2 diffbot_with_keyboard.launch.py 
-```
-Open a new terminal window and then run the following command:
-
-```sh
-ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diffbot_base_controller/cmd_vel_unstamped
 ```
 
 Run the launch file without the simulation:
