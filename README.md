@@ -29,14 +29,6 @@ Run the launch file with the simulation on rviz:
 ros2 launch ros2_control_demo_example_2 diffbot.launch.py 
 ```
 
-Run the launch file without the simulation:
-
-```sh
-ros2 launch diffbot_bringup launch_diffbot.py
-```
-
-
-
 Check if the hardware interface loaded properly, by opening another terminal and executing
 
 ```sh

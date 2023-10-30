@@ -6,7 +6,7 @@ source /opt/ros/${ROS_DISTRO}/setup.sh
 
 cd $WORKSPACE_DIR
 
-# vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
+vcs import src < src/ros2_control_demos/ros2_control_demos.$ROS_DISTRO.repos
 rosdep update --rosdistro=$ROS_DISTRO
 sudo apt-get update
 
