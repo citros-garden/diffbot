@@ -1,27 +1,29 @@
 ARG ROS_DISTRO=humble
 
-FROM ros:${ROS_DISTRO}-ros-base
+# FROM ros:${ROS_DISTRO}-ros-base
+FROM vovalulav/ros2:humble-dev 
 
-ARG USERNAME=ros
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
+# ARG USERNAME=ros
+# ARG USER_UID=1000
+# ARG USER_GID=$USER_UID
 
-# Create a non-root user
-RUN groupadd --gid $USER_GID $USERNAME \
-  && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
-  # Add sudo support for the non-root user
-  && apt-get update \
-  && apt-get install -y sudo \
-  && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME\
-  && chmod 0440 /etc/sudoers.d/$USERNAME \
-  && rm -rf /var/lib/apt/lists/*
+# # Create a non-root user
+# RUN groupadd --gid $USER_GID $USERNAME \
+#   && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
+#   # Add sudo support for the non-root user
+#   && apt-get update \
+#   && apt-get install -y sudo \
+#   && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME\
+#   && chmod 0440 /etc/sudoers.d/$USERNAME \
+#   && rm -rf /var/lib/apt/lists/*
 
-ENV DEBIAN_FRONTEND noninteractive
+# ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update && apt-get install -y \
-  python3-pip 
+# RUN apt-get update && apt-get install -y \
+#   python3-pip
 
-RUN pip install setuptools==58.2.0
+RUN pip install setuptools==58.2.0 \
+    && pip install ros2-graph
 
 RUN apt-get update \
     && apt-get upgrade -y \

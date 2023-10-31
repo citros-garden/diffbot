@@ -14,7 +14,7 @@ rosdep install --from-paths src --ignore-src -r -y
 # git submodule update --init --recursive
 
 cd $WORKSPACE_DIR/src
-rm -R gazebo_ros2_control
+rm -rf gazebo_ros2_control
 
 cd $WORKSPACE_DIR
 
