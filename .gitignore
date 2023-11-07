@@ -1,3 +1,4 @@
 build/*
 install/*
 log/*
+src/controller/controller/__pycache__

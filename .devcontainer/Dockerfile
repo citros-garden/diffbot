@@ -27,7 +27,7 @@ RUN apt-get update && apt-get install -y \
   gdb-multiarch \
   default-jre \
   python3 \
-  python3-setuptools \
+  python3-setuptools\
   python3-vcstool \
   python3-colcon-common-extensions \
   python3-rosdep \
@@ -39,7 +39,8 @@ RUN apt-get update && apt-get install -y \
   ros-humble-gazebo-ros-pkgs
   
   
-RUN pip install xacro
+RUN pip install xacro \ 
+pip install setuptools==58.2.0 
 
 # Set up auto-source of workspace for ros user
 COPY . /home/diffbot/src
