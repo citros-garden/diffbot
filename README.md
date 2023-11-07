@@ -107,5 +107,5 @@ ros2 launch my_robot_description display.launch.xml
 
 view the robot on gazebo:
 ```
-ros2 launch my_robot_bringup my_robot_gazebo.launch.xml
+ros2 launch my_robot_bringup my_robot_gazebo.launch.py
 ```
