@@ -2,3 +2,4 @@ build/*
 install/*
 log/*
 site/*
+src/controller/controller/__pycache__
