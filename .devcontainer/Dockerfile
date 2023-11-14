@@ -36,9 +36,12 @@ RUN apt-get update && apt-get install -y \
   python3-wstool \
   ros-humble-rosbridge-suite \
   && rm -rf /var/lib/apt/lists/* \
-  ros-humble-gazebo-ros-pkgs
-  
-  
+  ros-humble-urdf-tutorial \
+  ros-humble-gazebo-ros-pkgs \
+  ros-humble-navigation2 \
+  ros-humble-nav2-bringup \
+  ros-humble-joint-state-publisher  
+
 RUN pip install xacro \ 
 pip install setuptools==58.2.0 
 
