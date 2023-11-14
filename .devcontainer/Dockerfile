@@ -1,60 +1,52 @@
-# FROM althack/ros2:humble-gazebo-nvidia
+FROM althack/ros2:humble-gazebo-nvidia
 
-# # ** [Optional] Uncomment this section to install additional packages. **
-# #
-# # ENV DEBIAN_FRONTEND=noninteractive
-# # RUN apt-get update \
-# #    && apt-get -y install --no-install-recommends <your-package-list-here> \
-# #    #
-# #    # Clean up
-# #    && apt-get autoremove -y \
-# #    && apt-get clean -y \
-# #    && rm -rf /var/lib/apt/lists/*
-# # ENV DEBIAN_FRONTEND=dialog
 
-# # Set up auto-source of workspace for ros user
-# ARG WORKSPACE
+# install utils
+ENV DEBIAN_FRONTEND=noninteractive
 
-# RUN apt update && apt-get install -y ros-humble-rosbridge-suite 
-# RUN echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/install/setup.bash; fi" >> /home/ros/.bashrc
+RUN apt-get update && apt-get install -y \
+  bash-completion \
+  build-essential \
+  cmake \
+  gdb \
+  git \
+  python3-argcomplete \
+  python3-pip \
+  nano \
+  wget \
+  curl \
+  autoconf \
+  automake \
+  libtool \
+  make \
+  g++ \
+  unzip \
+  sudo \ 
+  openssh-server \
+  gnupg \
+  gdb-multiarch \
+  default-jre \
+  python3 \
+  python3-setuptools\
+  python3-vcstool \
+  python3-colcon-common-extensions \
+  python3-rosdep \
+  python3-rosinstall \
+  python3-rosinstall-generator \
+  python3-wstool \
+  ros-humble-rosbridge-suite \
+  && rm -rf /var/lib/apt/lists/* \
+  ros-humble-urdf-tutorial \
+  ros-humble-gazebo-ros-pkgs \
+  ros-humble-navigation2 \
+  ros-humble-nav2-bringup \
+  ros-humble-joint-state-publisher  
 
-ARG ROS_DISTRO=humble
+RUN pip install xacro \ 
+pip install setuptools==58.2.0 
 
-FROM ros:${ROS_DISTRO}-ros-base
-
-ARG USERNAME=ros
-ARG USER_UID=1000
-ARG USER_GID=$USER_UID
-
-# Create a non-root user
-RUN groupadd --gid $USER_GID $USERNAME \
-  && useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME \
-  # Add sudo support for the non-root user
-  && apt-get update \
-  && apt-get install -y sudo \
-  && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME\
-  && chmod 0440 /etc/sudoers.d/$USERNAME \
-  && rm -rf /var/lib/apt/lists/*
-
-ENV DEBIAN_FRONTEND noninteractive
-
-RUN apt-get update \
-    && apt-get upgrade -y \
-    && \
-    : "remove cache" && \
-    apt-get autoremove -y -qq && \
-    rm -rf /var/lib/apt/lists/*
-
-COPY . /home/diffbot/src/ros2_control
-
-RUN cd /home/diffbot/src \
-    && rosdep update --rosdistro ${ROS_DISTRO}  \
-    && apt-get update \
-    && rosdep install --from-paths ./ -i -y --rosdistro ${ROS_DISTRO} \
-    --skip-keys ros-${ROS_DISTRO}-joint-state-publisher-gui --skip-keys ros-${ROS_DISTRO}-rviz2\
-    && \
-    : "remove cache" && \
-    apt-get autoremove -y -qq && \
-    rm -rf /var/lib/apt/lists/*
-
+# Set up auto-source of workspace for ros user
+COPY . /home/diffbot/src
+WORKDIR /workspaces/diffbot
+RUN echo "if [ -f ${WORKSPACE}/install/setup.bash ]; then source ${WORKSPACE}/install/setup.bash; fi" >> /home/ros/.bashrc
 

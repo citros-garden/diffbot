@@ -8,7 +8,7 @@ class controller(Node):
     def __init__(self):
         super().__init__('controller') #node name
         self.get_logger().info('controller node started')
-        self.state_pub = self.create_publisher(Twist , '/diffbot_base_controller/cmd_vel_unstamped', 10)
+        self.state_pub = self.create_publisher(Twist , '/cmd_vel', 10)
 
         self.state_msg = Twist()
 

@@ -1,0 +1,17 @@
+<launch>
+    <let name="urdf_path" 
+         value="$(find-pkg-share my_robot_description)/urdf/my_robot.urdf.xacro" /> <!-- first launch my_robot.urdf -->
+
+    <let name="rviz_config_path"
+         value="$(find-pkg-share my_robot_description)/rviz/urdf_config.rviz" /> <!--when starting rviz you bringup the robot-->
+
+    <node pkg="robot_state_publisher" exec="robot_state_publisher">
+        <param name="robot_description"
+               value="$(command 'xacro $(var urdf_path)')" />
+    </node> <!-- start the robot pub with urdf content file -->
+
+    <node pkg="joint_state_publisher_gui" exec="joint_state_publisher_gui" /> 
+
+    <node pkg="rviz2" exec="rviz2" output="screen" 
+          args="-d $(var rviz_config_path)" /> <!-- start rviz with the config setup -->
+</launch>
