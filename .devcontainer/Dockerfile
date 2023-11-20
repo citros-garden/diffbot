@@ -40,7 +40,9 @@ RUN apt-get update && apt-get install -y \
   ros-humble-gazebo-ros-pkgs \
   ros-humble-navigation2 \
   ros-humble-nav2-bringup \
-  ros-humble-joint-state-publisher  
+  ros-humble-joint-state-publisher \
+  ros-humble-slam-toolbox \
+  ros-humble-robot-localization
 
 RUN pip install xacro \ 
 pip install setuptools==58.2.0 

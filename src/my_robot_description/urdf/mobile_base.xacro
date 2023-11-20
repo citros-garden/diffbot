@@ -7,6 +7,7 @@
     <xacro:property name="wheel_radius" value="0.1" />
     <xacro:property name="wheel_length" value="0.05" />
 
+
     <link name="base_footprint" />
 
     <link name="base_link">
@@ -26,6 +27,7 @@
         <xacro:box_inertia m="5.0" l="${2*base_length}" w="${2*base_width}" h="${2*base_height}"
                            xyz="0 0 ${base_height / 2.0}" rpy="0 0 0" />
     </link>
+
 
     <xacro:macro name="wheel_link" params="prefix">
         <link name="${prefix}_wheel_link">
@@ -94,4 +96,5 @@
         <origin xyz="${base_length / 3.0} 0 ${-wheel_radius / 2.0}" rpy="0 0 0" />
     </joint>
 
+    
 </robot>

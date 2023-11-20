@@ -20,9 +20,13 @@
     </gazebo>
 
 
+
         <!-- Install gazebo_ros_pkgs sudo apt install ros-humble-gazebo-ros-pkgs -->
     <gazebo> 
-        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so"> 
+        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+            <!-- <ros>
+                <namespace>/demo</namespace>
+            </ros> -->
             <!-- Update rate in Hz -->
             <update_rate>50</update_rate>
             <!-- wheels -->
@@ -34,8 +38,8 @@
             <!-- input -->
             <command_topic>cmd_vel</command_topic>
             <!-- output pub -->
-            <publish_odom>true</publish_odom> <!-- where the robot compere to the origin(starting point)-->
-            <publish_odom_tf>true</publish_odom_tf>
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>false</publish_odom_tf>
             <publish_wheel_tf>true</publish_wheel_tf>
             <odometry_topic>odom</odometry_topic>
             <odometry_frame>odom</odometry_frame>
