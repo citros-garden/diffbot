@@ -20,6 +20,7 @@ def generate_launch_description():
     
     robot_description = ParameterValue(Command(['xacro ', urdf_path]), value_type=str)
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
+    world_path=os.path.join(pkg_share, 'world/my_world.sdf'),
 
     controller_config = PathJoinSubstitution(
         [
@@ -49,7 +50,7 @@ def generate_launch_description():
     )
 
     # Gazebo
-    gazebo_node = ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'], output='screen')
+    gazebo_node = ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so',world_path], output='screen')
 
     controller=Node(
         package = 'controller',

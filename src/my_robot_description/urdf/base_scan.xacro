@@ -19,7 +19,7 @@
             </geometry>
             <origin xyz="0 0 0" rpy="0 0 0" />
         </collision>
-        <xacro:cylinder_inertia m="1.0" r="${2*scan_radius}" h="${2*scan_radius}" 
+        <xacro:cylinder_inertia m="0.1" r="${2*scan_radius}" h="${2*scan_radius}" 
                                     xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
     </link>
 
@@ -32,7 +32,7 @@
 
     <gazebo reference="base_scan">
         <material>Gazebo/Orange</material>
-        <sensor type="ray" name="lds_lfcd_sensor">
+        <sensor type="ray" name="lidar">
       <pose>0 0 0 0 0 0</pose>
       <visualize>$(arg laser_visual)</visualize>
       <update_rate>5</update_rate>
@@ -56,10 +56,14 @@
           <stddev>0.01</stddev>
         </noise>
       </ray>
-      <plugin name="gazebo_ros_lds_lfcd_controller" filename="libgazebo_ros_laser.so">
-        <topicName>scan</topicName>
-        <frameName>base_scan</frameName>
-      </plugin>
+      <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+        <!-- name of the topic -->
+        <remapping>~/out:=scan</remapping>
+      </ros>
+      <output_type>sensor_msgs/LaserScan</output_type>
+      <frame_name>base_scan</frame_name>
+    </plugin>
     </sensor>
     </gazebo>
 
