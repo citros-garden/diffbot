@@ -39,6 +39,7 @@ def generate_launch_description():
     rviz2_node = Node(
         package="rviz2",
         executable="rviz2",
+        output='screen',
         arguments=['-d', rviz_config_path]
     )
 
@@ -52,12 +53,12 @@ def generate_launch_description():
     # Gazebo
     gazebo_node = ExecuteProcess(cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so',world_path], output='screen')
 
-    controller=Node(
-        package = 'controller',
-        name = 'controller',
-        executable = 'controller',
-        parameters = [controller_config]
-    )
+    # controller=Node(
+    #     package = 'controller',
+    #     name = 'controller',
+    #     executable = 'controller',
+    #     parameters = [controller_config]
+    # )
 
     # robot localization node
     robot_localization_node = Node(
@@ -74,5 +75,5 @@ def generate_launch_description():
         gazebo_node,
         spawn_entity_robot,
         robot_localization_node,
-        controller
+        # controller
     ])
