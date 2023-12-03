@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-    <xacro:arg name="laser_visual"  default="true"/>
+    <xacro:arg name="laser_visual"  default="false"/>
     <xacro:property name ="scan_radius" value="0.1" />
     <xacro:property name ="scan_length" value="0.06" />
 

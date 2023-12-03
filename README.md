@@ -109,3 +109,9 @@ view the robot on gazebo:
 ```
 ros2 launch my_robot_bringup my_robot_gazebo.launch.py
 ```
+
+We can also check that the transforms are correct by executing the following lines in a new terminal:
+
+```
+ros2 run tf2_tools view_frames
+```
