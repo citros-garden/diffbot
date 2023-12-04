@@ -1,14 +1,11 @@
 from launch import LaunchDescription
 from launch_ros.parameter_descriptions import ParameterValue
 from launch_ros.actions import Node
-from launch.actions import DeclareLaunchArgument,LogInfo
-from launch.conditions import UnlessCondition
 from launch.substitutions import Command, PathJoinSubstitution , LaunchConfiguration , PythonExpression
 from launch_ros.substitutions import FindPackageShare
 import os
 from ament_index_python.packages import get_package_share_path ,get_package_share_directory
 from launch.actions import ExecuteProcess , DeclareLaunchArgument
-from nav2_common.launch import HasNodeParams
 def generate_launch_description():
 
     pkg_share = FindPackageShare(package='my_robot_description').find('my_robot_description')

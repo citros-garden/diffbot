@@ -42,7 +42,7 @@ def generate_launch_description():
     robot_description = ParameterValue(Command(['xacro ', urdf_path]), value_type=str)
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
 
-    world_path=os.path.join(pkg_share, 'world/my_world.sdf'),
+    world_path=os.path.join(pkg_share, 'world/obstacles.world'),
 
 
     robot_state_publisher_node = Node(
@@ -78,7 +78,6 @@ def generate_launch_description():
        parameters=[actual_params_file,{'use_sim_time': use_sim_time}],
 
     )
-
 
     # robot localization node
     robot_localization_node = Node(

@@ -40,6 +40,7 @@ RUN apt-get update && apt-get install -y \
   ros-humble-gazebo-ros-pkgs \
   ros-humble-navigation2 \
   ros-humble-nav2-bringup \
+  # ros-humble-twist-max \
   ros-humble-joint-state-publisher \
   ros-humble-slam-toolbox \
   ros-humble-robot-localization
