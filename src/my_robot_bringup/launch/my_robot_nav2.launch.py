@@ -108,7 +108,7 @@ def generate_launch_description():
     
     return LaunchDescription([
         robot_state_publisher_node,
-        robot_localization_node,
+        # robot_localization_node,
         rviz2_node,
         gazebo_node,
         spawn_entity_robot,

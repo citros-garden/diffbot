@@ -118,6 +118,9 @@ ros2 run tf2_tools view_frames
 amcl:
 ros2 run nav2_amcl amcl --ros-args -p use_sim_time:=true
 
+
+
+
 nav2 bringup
 
-ros2 launch my_robot_description navigation_launch.py params_file:=src/my_robot_description/config/nav2_params.yaml
+ros2 launch my_robot_bringup navigation_launch.py params_file:=src/my_robot_description/config/nav2_params.yaml use_sim_time:='true' 

@@ -71,5 +71,5 @@ def generate_launch_description():
         rviz2_node,
         gazebo_node,
         spawn_entity_robot,
-        # robot_localization_node,
+        robot_localization_node,
     ])

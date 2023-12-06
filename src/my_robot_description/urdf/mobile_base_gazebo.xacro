@@ -24,9 +24,9 @@
         <!-- Install gazebo_ros_pkgs sudo apt install ros-humble-gazebo-ros-pkgs -->
     <gazebo> 
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
-            <ros>
+            <!-- <ros>
                 <namespace>/pub</namespace>
-            </ros>
+            </ros> -->
             <!-- Update rate in Hz -->
             <update_rate>30</update_rate>
 
